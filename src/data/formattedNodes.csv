@@ -1,0 +1,1234 @@
+id,group,title,connections
+a0bfac26-2404-4c15-b94b-50d7b3dad5dd,Application,Anwendung: Öffi,3
+d3c0a223-516b-4049-9370-22881a0428d8,Dataset,Datensatz: Elektronische Fahrplanauskunft der LINZ AG LINIEN - Sollzeit (Linz),10
+7562f659-398d-46d7-9167-7f9ccaa00263,Dataset,Datensatz: Haltestellen der LINZ AG LINIEN (Linz),9
+9c203fec-dc0d-412c-a7a3-7fd77d0346f1,Dataset,Datensatz: Wiener Linien Routingservice Wien,19
+7952e50f-2527-4085-b727-61095417682a,Application,Anwendung: Hotspot Finder auf Layar,1
+b2068d46-de7f-4a22-a563-4dea59b1e6f2,Dataset,Datensatz: Hotspot - Standorte (Linz),5
+8b97400b-d327-45fa-8d38-88636d8dccfd,Application,Anwendung: iDump – Altstoffsammelstellen am Smartphone,1
+8d482810-26da-4bbc-8599-6b1fd1ab8743,Dataset,Datensatz: null,16
+dc514bf5-6ec9-4950-a079-d73bf3b4aa84,Application,Anwendung: AppFahrt,1
+21fca925-12ac-4215-ba1a-a9c73cb3b082,Dataset,Datensatz: Haltestellen Standorte Wien,21
+b8d34fe1-b7d2-4008-8129-06cc5faf4a40,Application,Anwendung: Urban bitLife: mobile Applikation zur Luftgüte,1
+8b3b3cdf-2be6-4f0b-8c86-f6be67e5b002,Dataset,Datensatz: aktuelle Ozondaten Österreich,7
+5c9ccf1b-d7f5-4f06-89c0-a2a448fe8bef,Application,Anwendung: Budgetvisualisierung Kremsmünster,2
+690db6b0-a291-412e-97bc-6d200d0a4b26,Dataset,Datensatz: Gemeindebudget Kremsmünster 2003-2012 - Ausgaben,1
+5ffe0ecb-4902-41dc-b68b-12bd9caffdcd,Dataset,Datensatz: Gemeindebudget Kremsmünster 2003-2012 - Einnahmen,1
+367f84c1-1ed7-4366-a9be-ac9bed17bc7f,Application,Anwendung: OffeneVergaben.at,38
+e3e38c89-8123-49dc-9e51-40e6c21adfca,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'ZT-Büro Dipl.-Ing. Georg Pfenniger',1
+6b4b25ac-b2a1-4d31-9d03-9ddcc8f233e4,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Einkaufsmanagement WU Wien',1
+3e0f397b-c53c-426e-8869-b17c884b8868,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Herbst Kinsky Rechtsanwälte GmbH',1
+9543be56-7309-4788-8de2-fbdd5006282b,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Oberösterreich',2
+92b15030-20af-4059-b96e-145089887daf,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG2018 von Marktgemeinde St. Peter am Ottersbach,1
+cb196172-5121-4be7-a5fa-fdd5807ceb48,Dataset,"Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Gemeinde Hippach, Johann-Sponring-Straße 80, 6283 Hippach'",1
+54036bbe-cd99-496e-a089-442bc1b6308e,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von Gemeinde Murfeld,1
+de87d1ea-e67a-4235-8cb9-a2b8ffc2ca1c,Dataset,"Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'RA Mag. Wolfgang Klasnic, Gratweinerstr. 21, 8111 Gratwein-Straßengel'",1
+8df6b76b-a1c8-45a4-ab7b-3ff8676e4b04,Dataset,"Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'EVN AG, Beschaffung und Einkauf'",2
+d71e2c4b-a5d0-4a62-aa5a-13d2b49032c4,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von Gemeinde Sankt Peter am Hart,1
+7e80bc4b-3537-42fd-881f-d9290b34782e,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'WKO Inhouse GmbH der Wirtschaftskammern Österreichs',2
+753dcaef-bb63-4d16-a9af-8ec6d20d5e49,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Marktgemeinde Lenzing',1
+9d58be92-32eb-43a7-9f38-dff44078864e,Dataset,"Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'IST Austria, procurement'",2
+ef47695d-7aa3-41cf-8c4e-d76aa4dae7d5,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Kärnten',2
+99d2218d-c95c-441b-bdb3-cd12d762391d,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'HSI Hartberg Standortentwicklung und Immobilien GmbH & CoKG',1
+3a520b08-7351-479c-9232-628727066f55,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Vorarlberg',2
+6bd1abfe-3dbf-4e04-b8cc-07114eb8810c,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Austria Wirtschaftsservice Gesellschaft mbH',2
+39fe6e50-6b93-496f-9339-f5534f67584c,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Peter Mattes',1
+e5f51f9d-9ddb-4fc7-95a8-ef0d9eb2144d,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Wien',2
+39e2a593-d508-4f64-8a04-8d6dbf730f9d,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Österreichische Post AG',2
+5e84d2ab-b5ca-48c3-b15f-3d71e4bca4ee,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Steiermark',2
+ca51f4d9-c7dd-4eaa-8a22-0654bea8c763,Dataset,Datensatz: Ausschreibung Betreuung Schülerhort,1
+7fffba00-9b87-4fb4-8c71-68399d2a4291,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wirtschaftskammer Österreich',2
+f03909b3-a72a-4769-a06e-35141469ff83,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Klagenfurt am Wörthersee',1
+fd56466b-ced8-47ab-8d1a-9ce798948bad,Dataset,"Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von Bundesministerium für Bildung, Wissenschaft und Forschung - Zentralstelle",2
+bcc6419f-3091-48d7-bd8b-8e440cc8108f,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Gemeinde Neukirchen an der Enknach',1
+1d0df1b7-f98f-47a8-9e38-9b4073f01dcc,Dataset,Datensatz: null,1
+76efecc9-e509-4c6b-849b-f742ed3e258a,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Energie Burgenland AG',2
+02072598-4a39-4390-a43b-add3514cb903,Dataset,Datensatz: null,1
+41a809d9-0b61-4991-86b8-74dc07973af3,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'ASFINAG',2
+07ab9a18-820d-4621-bc9a-e87067a4aade,Dataset,Datensatz: Metadatensatz zur Kerndaten - Sammlung gemäß  BVergG 2018 von Agrarmarkt Austria,1
+86dd87bd-7426-40c5-946b-62b2af638aab,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'eVergabe.at',2
+009b7802-0b04-4fee-8dac-3922bd5098ae,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Bundesbeschaffung Ges.m.b.H',2
+505019f6-4c66-4ce4-9700-a5ed3cf664c3,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'ÖBB-Business Competence Center GmbH',2
+fde58043-87ff-44b0-b6b0-3d089adfba4c,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'vemap Einkaufsmanagement GmbH',2
+23602b0b-c7b0-4f10-9910-7ee5329433bc,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Wiener Zeitung GmbH',2
+a2c49245-23b2-46e1-acc7-c5a78913a090,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'ANKÖ Service Ges.m.b.H',2
+78b227dc-78f6-4085-b4fb-772e040a14e0,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'AUSSCHREIBUNG.AT',2
+1a76e4df-b7d2-41f7-bf7a-64e89c9081c8,Application,Anwendung: T'Hermine,1
+dfa2ff35-d2c4-4196-9989-a1bdbeabbfed,Dataset,Datensatz: Linztermine - Übersicht über Veranstaltungen (Linz),4
+3c681cf7-18aa-4789-b28f-cffff5db3304,Application,Anwendung: Schwimmpreisrechner,1
+898afe8c-0297-45d6-b4b5-0cb9e632094b,Dataset,Datensatz: Schwimmbäder Standorte Wien,31
+386ae50b-416a-46ce-ada9-3fbc6cf46dbd,Application,Anwendung: Wiener Baumdichte-Waben,1
+c91a4635-8b7d-43fe-9b27-d95dec8392a7,Dataset,Datensatz: null,17
+4afc7184-1a64-435b-a444-d77e7f4068e1,Application,Anwendung: Visualisierungen auf Basis der Wohnungsdaten,1
+3dc5cf5a-313e-4cd1-af1e-3c4710acae94,Dataset,Datensatz: Eigentumsverhältnisse der Gebäude (Linz),1
+84caf1fc-0046-4047-a43c-97c5532bb21b,Application,Anwendung: Museen Wien,1
+6f412521-2e9b-44b1-a3e4-8f1358caef63,Dataset,Datensatz: null,23
+860b9e0e-c55b-4ffc-b48e-e1bef231f5cc,Application,Anwendung: Taxi Wien,1
+be2e0197-57b8-4fcf-a144-cb33f7466f3a,Dataset,Datensatz: null,22
+486484ca-e51f-4193-bfd6-e6b17ff7ddd8,Application,Anwendung: Citybike Wien,1
+523ba2e4-8c55-4dde-8acf-39e3621811b0,Dataset,Datensatz: null,39
+3ab25c34-a561-4cfd-b571-072a14ca19db,Application,Anwendung: Kartenwerkstatt,3
+0adc90c9-ac6b-47ef-aa83-b7780594720c,Dataset,Datensatz: Zählgebietsgrenzen Wien,5
+02ad6e25-2698-405f-a37b-99745b1ac69c,Dataset,Datensatz: Flächenwidmungs- und Bebauungsplan Wien,4
+9ee0d2d2-6631-4d5e-a33a-ad0cb9874566,Dataset,Datensatz: Stadtplan Linz 2011 (Linz),1
+5ad4393f-88a8-4d7c-ab25-5242f5153793,Application,Anwendung: Open Data Wien Plan,1
+332be1f6-5791-43ae-9e37-90cc48e75d24,Dataset,Datensatz: Stadtplan Grundkarte Wien,6
+8e08a3c9-4d8c-4a3c-ad92-0ad568330905,Application,Anwendung: Wordpress Plugin Maps Marker Pro,4
+146384fc-3f64-4482-a78a-2f082411a27d,Dataset,Datensatz: Öffentliche WC Anlagen Standorte Wien,31
+aac2629e-495d-4468-9c8b-cd9649bd7b5d,Dataset,Datensatz: Aufzüge in Stationen Standorte Wien,9
+2c54f4d6-5712-4e5a-a025-b7f7a396c39b,Dataset,Datensatz: basemap.at Verwaltungsgrundkarte Raster Österreich,110
+f163ee64-6e67-44df-9ff0-542972805c0c,Application,Anwendung: Visualisierung der Gemeinderatsprotokolle,2
+5160611a-b665-461b-ae93-e5e6ec342166,Dataset,Datensatz: Gemeinderatsprotokolle 2010 (Linz),2
+48b40fff-ccaa-4708-8db3-bdc3a791bfca,Dataset,Datensatz: Gemeinderatsprotokolle 2011 (Linz),2
+393e000c-bfee-4025-8ab2-c1df7095d9f0,Application,Anwendung: Budgetvisualisierung,1
+d25e61cd-2b00-4480-bfcd-64761d7b272e,Dataset,Datensatz: Rechnungsabschluss der Stadt Wien: Ausgabenart Zeitreihe Wien,1
+97ac80fb-9eab-4263-b4a6-7c78d44d43d7,Application,Anwendung: Visualisierung Einnahmen - Ausgaben (Finanzgebarung),2
+98d14207-6c69-492b-8627-6c329f4a0525,Dataset,Datensatz: Finanzgebarung der Stadt Wien: Bereich Einnahmen Zeitreihe Wien,2
+f9426236-6f1a-4b31-99ab-3dfd71e4c3e9,Dataset,Datensatz: Finanzgebarung der Stadt Wien: Bereich Ausgaben Zeitreihe Wien,2
+25e7398e-1b04-4fc3-b5aa-78c9a5e90fcc,Application,Anwendung: Interaktive Budgetvisualisierung mit Google Motion Charts,2
+ac21e2b9-d43a-46a8-a24d-d3bf0e05fbb7,Application,Anwendung: Parken Wien - Kurzparkzonen Wien mit SMS Parkticket,2
+6858b208-62bc-424e-9d7b-c89b74d3d3e3,Dataset,Datensatz: null,27
+aa8876c7-9711-4969-b428-34400f2d0dbe,Dataset,Datensatz: null,20
+6caefb81-f23c-4b40-8329-384f10693758,Application,Anwendung: ÖH JKU App,1
+0869a3a7-3a3a-4b45-b173-7e55151e389c,Application,Anwendung: Ozonwerte Österreich,1
+47f67f71-0b6c-4eed-aa9e-dc1f4a0e625d,Application,Anwendung: Offenerhaushalt.at,1
+7861cd5d-e5bf-4d31-9c17-92f348447db2,Dataset,Datensatz: Rechnungsabschluss der Stadt Graz,1
+3a23400f-1b23-46de-9e54-9cb6fe8ad127,Application,"Anwendung: Florian und Jessica, Muhammed und Leonie: Vornamen in Wien",1
+87fc82a0-0042-49c8-b6f9-2602cd3dc17a,Dataset,Datensatz: Vornamen Neugeborene Wien,5
+e6415477-905e-4f45-956d-ff58a4c42d0c,Application,Anwendung: Der Radfahrbegleiter für Wien,6
+2ed52078-7e55-40ea-8036-0d89118a06f4,Dataset,Datensatz: Trinkbrunnen Standorte Wien,21
+699a5a9a-348c-4a46-b99e-a23b59f27721,Dataset,Datensatz: null,6
+97ef14eb-f280-48a7-96c0-df03859b06c2,Dataset,Datensatz: null,17
+c5cf2502-7572-4fd1-a836-48b335a2d47d,Dataset,Datensatz: null,6
+cb3cc1fa-61ec-4cb8-aa5c-b101c57ad297,Application,Anwendung: WienApp,5
+4315e096-f51e-4b56-8235-57be9789a62c,Dataset,Datensatz: null,16
+5a7f6929-6be2-4eb4-b678-4221b7da0be2,Application,Anwendung: Parkhelper,1
+9b178017-425b-40f5-8809-389b4b821cf1,Application,Anwendung: Urlaub in Linz,6
+809eeaf2-c9a6-47cb-a00a-2433222eb132,Dataset,Datensatz: Übersichtskarte Linz (Linz),1
+53b70911-67ee-459b-a573-130272275a91,Dataset,Datensatz: Krankenanstalten - Standorte (Linz),5
+d780bf4f-063e-4c21-bb28-62c8d1d79cdc,Dataset,Datensatz: Ambulatorien - Standorte (Linz),3
+d61ed212-9915-4018-a350-caecfda3e0c6,Dataset,Datensatz: Apotheken - Standorte (Linz),4
+b77d0b46-306c-46da-b26d-6e4dd718fde7,Dataset,Datensatz: Spielplätze und Sportanlagen (Linz),4
+e01e8ee7-265f-4e22-85c0-f714056114ae,Application,Anwendung: simpleOZON,1
+19e40c31-6491-439d-93e4-d2c62295e84e,Application,Anwendung: Parksau,4
+8a528b7f-98af-4893-af73-5d5f26d3aa7c,Dataset,Datensatz: null,11
+d9d44bd5-c1c9-4d70-b180-efee2255fcc5,Application,Anwendung: WienTaxi,1
+17e2f683-9146-49b5-9996-56c3f2b850c3,Application,Anwendung: Fahrschulen Wien,1
+8e454ce2-435e-4352-962b-1bf4e4303301,Dataset,Datensatz: null,5
+b2cbe12e-d9c7-4867-abe2-188aef9a9939,Application,Anwendung: MyITS - Der intelligente Routenplaner,18
+c1ba372b-dba2-4bce-b72e-b5c832eaaf44,Dataset,Datensatz: null,19
+298e6b5a-21a8-4d56-9484-1bac58c94a26,Dataset,Datensatz: Polizei Standorte Wien,24
+71084c02-973d-4544-b804-7ed82bd53027,Dataset,Datensatz: null,15
+5d642d09-8e03-4200-a79b-2a397a6d5d51,Dataset,Datensatz: Krankenhäuser Standorte Wien,20
+87f121a7-eef0-4be9-9372-a5efe5b4d375,Dataset,Datensatz: null,22
+826d798e-01d1-48d3-973c-e0e466a63ca8,Dataset,Datensatz: null,11
+2adc5a86-faa3-4b63-acff-a66128b811b7,Dataset,Datensatz: null,21
+7c6e9dbf-487b-4146-a379-19e46642c392,Dataset,Datensatz: Badestellen Standorte Wien,19
+627a9226-a907-4018-89e3-878002a9d22b,Dataset,Datensatz: null,12
+2d0e9a21-fa5f-441d-948a-fe97a453a827,Dataset,Datensatz: null,5
+b01585af-110f-4f87-9bf1-06805605926c,Dataset,Datensatz: Veranstaltungen Wien,14
+2acdfaec-f710-4f52-a73f-afbedfa45893,Application,Anwendung: Stadtplan Wien OpenLayers Demo,3
+fc21780d-bbb0-4ec9-9cb2-8687fd28ebc2,Dataset,Datensatz: Orthofoto 2015 Wien,3
+711e4d67-8343-4bf1-90e8-de24738becf9,Dataset,Datensatz: Stadtplan Beschriftung Wien,3
+9cb0ee3e-fca0-4fb8-993a-cb974e1b341c,Application,Anwendung: Linz spricht,2
+d5de0488-3fee-40a4-b545-3215f606aeaa,Application,Anwendung: simpleMTB,1
+c8218f47-8ef6-43c6-9f86-3125e317f60e,Dataset,Datensatz: Radrouten in Tirol,2
+11361b19-cda5-45e1-9d25-ec3f2f8b36eb,Application,Anwendung: KLocator Wien,1
+beac2864-e40f-4060-bae8-29f66e6a92fc,Application,Anwendung: OGD Wien Preview and Matcher,80
+5982a27f-28a4-4f40-a1cc-5cb650400c50,Dataset,Datensatz: null,4
+3e62e13e-3955-494a-91b3-f00ab9e84b48,Dataset,Datensatz: Universitäten und Fachhochschulen Standorte Wien,16
+716d89ce-b0da-4158-abb6-72f562206b37,Dataset,Datensatz: null,14
+12426052-8803-4deb-8c89-9e78785f7dd2,Dataset,Datensatz: null,2
+ac4c2ac5-6be4-4471-bbf4-f09228f5db04,Dataset,Datensatz: Gewässernetz Wien,3
+10c7b88b-a708-4e17-a7ef-2c1ce0590377,Dataset,Datensatz: null,2
+e7065317-1d57-434a-8428-efa263ecc526,Dataset,Datensatz: null,8
+e4079286-310c-435a-af2d-64604ba9ade5,Dataset,Datensatz: Zählbezirksgrenzen Wien,5
+6e7bcb81-1b6c-46ca-817a-937d5664735d,Dataset,Datensatz: null,2
+c7e84d16-449e-4154-a1bd-603b4fae329e,Dataset,Datensatz: null,10
+bd8b518b-d812-46f9-b367-4c1b660cfc99,Dataset,Datensatz: Spielplätze Standorte Wien,21
+ff1480b5-61f2-4008-aada-387c2c490549,Dataset,Datensatz: Stationen in öffentlichen Krankenhäuser Standorte Wien,5
+ac478f32-3e3b-4c04-bc7d-aa75069b6367,Dataset,Datensatz: Stehende Gewässer Wien,3
+5ceed47b-7db0-4958-a893-6d217eb25517,Dataset,Datensatz: null,3
+fd1db6d6-98a5-4c78-bcee-bc57d068ee13,Dataset,Datensatz: null,1
+22add642-d849-48ff-9913-8c7ba2d99b46,Dataset,Datensatz: Parkanlagen Standorte Wien,13
+47c7ffa9-65ba-41d1-9461-4e5458afd62e,Dataset,Datensatz: null,9
+5e6175cd-dc44-4b32-a64a-1ac4239a6e4a,Dataset,Datensatz: null,8
+b2e85e3e-bfba-44c5-b472-3d849e3a3f74,Dataset,Datensatz: null,1
+4111e2d8-1729-4953-899a-c55bc382857e,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem (GIP.at) Namen (Liste) Wien,6
+2f5baa1f-208c-42c2-8d04-9ea74aa1b229,Dataset,Datensatz: Realnutzungskartierung ab 2007 Wien,5
+455cf48c-cdee-4721-a0ed-cd38af7aff0f,Dataset,Datensatz: null,11
+5f8ecd04-6e84-4ed7-b4d6-3632c5d2b8f4,Dataset,Datensatz: null,7
+fc725989-5c3e-4bf4-89b1-68caeec4d858,Dataset,Datensatz: null,13
+3284450c-f8cc-439b-b331-ff901a307db6,Dataset,Datensatz: null,1
+f08964c6-5987-43c3-97d8-cb5a4eff0454,Dataset,Datensatz: null,1
+fd544e75-122f-4278-85e7-b9b591d4ceaa,Dataset,Datensatz: null,1
+383408d4-89b8-42df-af53-5c89f91e0cc7,Dataset,Datensatz: null,7
+7b1492ea-72f1-4d79-a5df-2e0e32088ea1,Dataset,Datensatz: null,1
+41e2cda3-d829-43dc-8d59-87e16e8301f6,Dataset,Datensatz: null,1
+28a7419c-f432-4e1a-b0a6-aa9e71968a14,Dataset,Datensatz: null,16
+7035def0-a9df-430a-99ee-6e13de12676c,Dataset,Datensatz: null,5
+3ff63cf5-8d04-4be5-9449-96411ae9fc36,Dataset,Datensatz: null,14
+a1347e6c-db7d-423d-9b62-de7717129f5b,Dataset,Datensatz: null,1
+54fc7750-8540-4c22-8d46-9a6a2641c41a,Dataset,Datensatz: Mistplätze Standorte Wien,13
+d2c6f6f5-2236-4217-8361-3297b6369979,Dataset,Datensatz: Mobile Problemstoffsammelstellen Standorte Wien,11
+d9321ccf-d303-4cfb-a24b-32aba49cef81,Dataset,Datensatz: Friedhöfe Standorte Wien,7
+8e420764-a913-4eae-8514-9be858fdb9b3,Dataset,Datensatz: null,10
+893e2a5e-78ec-46fa-9e6e-6eec56d7c536,Dataset,Datensatz: null,1
+c694f63c-b49e-4151-bbab-bf1b6f4958ba,Dataset,Datensatz: null,1
+371f7f97-e7ad-4335-a4f9-0d1ca4daa1ec,Dataset,Datensatz: Historische Wasserleitungen Wien,2
+2a747392-a08e-4f3d-aa58-c22b2c9d3a0d,Dataset,Datensatz: null,2
+98908792-f315-4834-9b5e-20fed66cbe5a,Dataset,Datensatz: null,13
+2b1b422a-0235-485b-bd39-da1eff5d69c5,Dataset,Datensatz: null,1
+b8fa7909-7b83-4a1a-badb-264ca39308dd,Dataset,Datensatz: null,1
+a42cbe4f-89f0-42ae-a34d-f2e5db6aa1d2,Dataset,Datensatz: Burgen und Schlösser Standorte Wien,9
+de64ade8-5025-40f9-a2e0-15b72797e6a7,Dataset,Datensatz: null,9
+038920bb-8c40-4a30-8d0c-0a29bcd64751,Dataset,Datensatz: null,6
+96196887-5a20-4e93-a302-72f306f32c9d,Dataset,Datensatz: null,15
+4e8d237b-8bd4-4483-a85d-431784c543b9,Dataset,Datensatz: null,5
+7fcf7f09-12d7-4b06-a183-93c51f940670,Dataset,Datensatz: Ambulanzen in öffentlichen Krankenhäusern Standorte Wien,14
+a14e57c4-ea1c-4a7a-863a-b874ccf23790,Dataset,Datensatz: Baublöcke Wien,3
+2ee6b8bf-6292-413c-bb8b-bd22dbb2ad4b,Dataset,Datensatz: Bezirksgrenzen Wien,13
+93a35853-a12e-4b7a-b65c-c0369d005f8d,Application,Anwendung: Wo steppt der Bär in Wien heute?,2
+fa96d249-2f58-48ce-bb3f-bb18b447ffc8,Dataset,Datensatz: Web Map Tile Service (WMTS) Wien,3
+a6989a41-fee5-421b-aa79-51793de1ffbd,Application,Anwendung: Gackerl Sackerl,1
+82e9b390-6da9-4540-b98b-07faf072a30e,Application,Anwendung: crowdranking,4
+bf902d04-f6c9-438e-aec1-1a762c50614b,Dataset,Datensatz: Skigebiete_2008,1
+39f5a085-5209-4d78-9b8b-dc6e1e79e1ea,Dataset,Datensatz: Golfplätze_2011,1
+c8677233-a19b-471f-99a7-a51f19ddbd21,Application,Anwendung: Eventphant - Events finden,1
+752d0730-cee5-4e37-a22f-2bca939aa427,Application,Anwendung: Wien Punktgenau,18
+7131ae60-5485-4d19-bd99-6c60608228ee,Application,Anwendung: Geografische Suche im Online-Katalog der GBA,1
+78b906a0-1e2e-4176-9a74-6be3587fde6d,Dataset,Datensatz: Geologische Bundesanstalt (GBA) - Online Katalog - Bibliothek,1
+51f3e07b-ba2a-4b68-8580-77cc2e5fdb25,Application,Anwendung: Parken in Graz,2
+74358c31-1607-41ff-bf02-a4b171e3a40d,Dataset,Datensatz: Park&Ride Graz,4
+92183c55-442b-405d-9046-d19b07ffc83a,Dataset,Datensatz: Parkgaragen Graz,4
+106d405b-3e41-4f96-bcdc-f8c3220341a6,Application,Anwendung: Kunst im öffentlichen Raum in Wien,1
+5475cd07-baa7-40d3-a762-8c6ead32ab36,Application,Anwendung: Burgen und Schlösser in Wien,1
+42f2327e-5bf3-4b9c-bcac-9aee18638037,Application,Anwendung: Polizeiinspektionen in Wien,1
+a2c9937d-5717-42d2-b460-8084254cf485,Application,Anwendung: Parkscheine in Wien,1
+c56e3eaf-6429-41c5-aa89-ae6be848743e,Application,Anwendung: 48er-App,6
+d10a9bde-6afb-4277-a235-7be9f7573f97,Application,Anwendung: Import Baumkataster Wien in Open Street Map,1
+59e722b4-ef95-4887-9c08-42742082d147,Application,Anwendung: Natur in Wien,1
+b7c86231-17e2-4e0b-bd56-0120df2fbd08,Application,Anwendung: Immo-Focus-Wien,57
+aab0a0be-89e6-442e-8cf9-e762bd18f76b,Dataset,Datensatz: null,11
+f0335765-1ab0-4e94-ab38-f404de4c3b4d,Dataset,Datensatz: null,8
+f4e80988-c139-4953-8176-b3d6d03f6449,Dataset,Datensatz: null,12
+72fbf32e-c8c3-4914-92a1-66dc2439a114,Dataset,Datensatz: null,11
+c6fc4688-1aca-4363-bd1a-8d14ea08d2f8,Dataset,Datensatz: null,11
+5983a1bb-62b6-4e26-afd0-dc234b34cf4b,Dataset,Datensatz: null,4
+71a6ca86-228a-4b57-b1bc-c3b887dd009e,Dataset,Datensatz: null,6
+e257875b-1424-4709-84e9-5ddd8c43ce41,Dataset,Datensatz: null,1
+45a55c97-2122-42a6-823d-f374f1a8bd48,Dataset,Datensatz: null,2
+770f9237-9a7f-45e4-9647-aacf35ddee06,Dataset,Datensatz: Icons Wien,4
+153865b8-867c-4c2d-b7b9-2a24e4d144dd,Application,Anwendung: Ambulanzen in Wien,1
+9f902cd0-50a1-4cc8-bb66-d7542e732b7f,Application,Anwendung: IZY Linz,13
+f5afc0ab-3203-4384-9d00-03fced6fe7b4,Dataset,Datensatz: null,3
+46825ece-d165-4b64-bea7-8964b8afdfe3,Dataset,Datensatz: Sozialberatungsstellen - Standorte (Linz),2
+e34d45e3-070b-44e7-9a65-7c268fa79fc7,Dataset,Datensatz: Städtische Senior*innenzentren (Linz),3
+f35b2a10-4d8b-40f3-9eb7-15d84c2f7f58,Dataset,Datensatz: Krabbelstuben - Standorte (Linz),4
+a7bfaed4-c1df-4448-894b-8effdfaed52d,Dataset,Datensatz: Jugendzentren - Standorte (Linz),3
+1ac8b693-987f-47bd-ac7b-f432b01a04a3,Dataset,Datensatz: Horte - Standorte (Linz),3
+c6bbfc6f-6700-40eb-9537-ab182075c8f8,Dataset,Datensatz: Club Aktiv - Standorte (Linz),3
+fff68f2f-ba5b-4d21-8212-a9b4d2eb23f8,Application,Anwendung: Polizei Wien - Windows Phone App,1
+dee3adef-9382-4109-a92c-2a4f8001c73d,Application,Anwendung: Kurzparkzonen Wien - iPhone App,1
+c7c36e95-1f2b-4547-8711-03e1e6c37adb,Application,Anwendung: IZY Wien,51
+a80522c7-fbe5-482b-a010-429b004b78cd,Application,Anwendung: Behindertenparkplätze in Graz,1
+44d6c71e-d956-41f9-ada6-d31b7793236f,Dataset,Datensatz: null,1
+61446844-9d56-49bb-a194-bf3ae3131375,Application,Anwendung: Problemstoffsammelstellen in Graz,1
+5fabbf7c-75b0-45c3-b85d-b7e3f37c4b31,Dataset,Datensatz: null,1
+4a468e1d-c31a-4d49-ab09-ebef53d85bd2,Application,Anwendung: Kurz Parken? - Wien,3
+bc751a5b-385a-4ef8-a0c6-5937c4139066,Application,Anwendung: DORIS,1
+3a3d5799-48f4-48f4-9839-72a1a5bf24ce,Application,Anwendung: Vienna Finder,29
+f913c08d-c073-4163-8fe1-e3141380c3fe,Application,Anwendung: ALLiSEARCH.com,8
+fb507f93-9c0f-406f-803b-1acfe56076ba,Application,Anwendung: Christbaumsammelstellen Graz,1
+dbfb6a2f-3650-49e3-ba07-85d5848498b2,Dataset,Datensatz: null,1
+1d7fa9f8-0a66-4b07-a995-33d5084484c3,Application,Anwendung: Park Finder Vienna,1
+615b86a3-0011-4530-b31e-26361cc43c52,Application,Anwendung: A story about Vienna,12
+629785af-9028-4f11-bdfe-d665a26a3d35,Dataset,Datensatz: Wirtschaftsindikatoren seit 1995 - Wien,1
+ea27c88d-6347-48f1-b58e-55960f99a0c1,Dataset,Datensatz: Bevölkerung nach Geburtsland seit 2002 - Wien,1
+ba4d8f5c-2de2-41fd-85cf-8fd77e425cf0,Application,Anwendung: Vienna districts in numbers,3
+8f405794-d95b-4d12-922a-850045bb6870,Dataset,Datensatz: Unselbständiges Einkommen nach Geschlecht seit 2002 - Bezirke Wien,1
+091a085f-2652-429f-8dde-c69199440ddf,Dataset,Datensatz: Bevölkerung seit 1869 - Bezirke Wien,2
+b8eef34a-6b88-4e6a-a233-fe070fa3799a,Application,Anwendung: Engerwitzdorf Interaktiv,3
+02eb8854-42a2-44cc-b8f1-abd5cfbd00c9,Dataset,Datensatz: null,2
+16a3da6a-d3d0-4dd7-99c5-27ab3202a939,Dataset,Datensatz: Feuerwehren Engerwitzdorf,1
+4ad92103-b0cf-458d-849d-6d70ac5891fd,Dataset,Datensatz: Sozialberatung Engerwitzdorf,1
+2f563680-8691-452e-9e12-0adbc285f5bc,Application,Anwendung: Kurzparkzonen Lite,1
+d4bca75d-1fa9-4f12-9538-9e4138aa400a,Application,Anwendung: Wann aufs Amt?,1
+e38cdef5-f993-4e6f-919e-ac68d26d727d,Dataset,Datensatz: Wartezeiten in den Magistratischen Bezirksämtern Wien,1
+e648b2ab-6d86-42f0-b52b-88e561c84c62,Application,Anwendung: Nationalratswahl 2013 a Nerdseye view,1
+09716341-2bea-4298-9525-e936d8247d19,Dataset,Datensatz: Ergebnisse der Nationalratswahl 2013 (BMI),6
+e783dd89-996f-4e2d-9747-5b4f08f96c14,Application,Anwendung: Pollenradar Wien,1
+37d3bcf1-0be5-4a16-b09c-a4183b18341e,Application,Anwendung: rate my name,1
+d94e8bcb-7056-4363-bfa0-6a8f06a2aa0a,Application,Anwendung: öffi.at,2
+522d3045-0b37-48d0-b868-57c99726b1c4,Dataset,Datensatz: Wiener Linien Echtzeitdaten via Datendrehscheibe Wien,52
+823747bd-2dc1-4828-919b-b8a242fefd71,Application,Anwendung: Kultur;App,1
+ea52760b-1cf5-4a53-9688-a0f704c285f3,Application,Anwendung: ÖAMTC App,2
+b1c1353d-4c8a-4a45-8cd2-c54b504d90f1,Application,Anwendung: Tirol Atlas: Sportstätten,1
+42b1da9c-72f8-4155-92c5-01b01696b1b7,Dataset,Datensatz: null,2
+1cac07ce-35f7-4a91-8c77-8c431ea09c05,Application,Anwendung: Open Data Mashup,6
+9ecf5866-dbe8-4cb2-b156-5097c7eec01f,Dataset,Datensatz: Bevölkerung nach Nationalität seit 2008 - Zählbezirke Wien,2
+36a8b9e9-909e-4605-a7ba-686ee3e1b8bf,Dataset,Datensatz: Öffentliches Verkehrsnetz Linien Wien,10
+7ed5a498-4f14-4eee-af05-b91d458bf3b4,Application,Anwendung: Bevölkerungsentwicklung Graz,1
+786d5be0-47ea-4c64-8299-2ee28b1ddfef,Dataset,Datensatz: Bevölkerungsprognose Graz 2012 - 2031,2
+a2fb6352-cdfc-4db9-be9d-a9bfd4d31530,Application,Anwendung: Bevölkerungszahlen und -dichte in Wien nach Zählbezirken,2
+e1384d14-b8f5-4bf3-a0f3-e534f054652d,Application,Anwendung: WanderLeo,1
+36886c25-6961-4055-96b2-b3e8b138e588,Dataset,Datensatz: null,7
+65bb123b-1373-4d63-b582-c7b79f0f39fa,Application,Anwendung: Vienna RealTime,2
+b508c879-805b-4976-901b-4002cb406e00,Application,Anwendung: Tirol Atlas: Gemeindefinanzen,1
+9fd80fda-bc9d-4f9e-8349-96416468a69f,Dataset,Datensatz: Finanzlagen der Gemeinden Tirols,1
+670d5a69-6f25-465c-8b68-15cda50efbc4,Application,Anwendung: goÖffi,4
+25bfcf8a-9e8a-4744-ab08-4dc1ed5e4823,Application,Anwendung: Polizeistationen Wien,1
+8a220e95-6572-4484-9847-a60dacd7082b,Application,Anwendung: InstaPLAY,1
+6cdac73b-cfab-4ca8-8ea1-c868f3540df2,Application,Anwendung: Öffis,2
+96be2a46-70c7-4721-8b7e-4a07003495d6,Application,Anwendung: Abfahrt,2
+d9a87c0f-7f1b-4251-bdcb-b44f692f2614,Application,Anwendung: Schwimmbäder in Wien,1
+24497c5e-c6c1-40ba-8d57-31327085bbfc,Application,Anwendung: Pegelstand Kremsfluss,1
+146ee6f5-d7d4-44ee-8d40-6145c8c1bf59,Application,Anwendung: Parken Wien,3
+88597846-b410-423d-aa34-e74c6a9e9a9a,Application,Anwendung: Behindertenparkplätze,3
+dda47439-e442-4a74-8f00-dfcfb65345fb,Application,Anwendung: Bevölkerungsprognose in der Steiermark,1
+54171a40-1cfd-11e2-892e-0800200c9a66,Dataset,Datensatz: Gemeindegrenzen Steiermark,3
+7170e71b-da13-45b4-838e-7274f964006e,Application,Anwendung: Eversport,1
+80541808-c818-4912-8cc4-38bac1936b8c,Application,Anwendung: Validating and exploiting Open Government Data with R,1
+a7d8dd6a-f42b-478c-b296-effabefccec6,Application,Anwendung: Wiener Linien Generator,1
+5be44c82-c093-40c7-abbd-3de616a8c48f,Application,Anwendung: zoomsquare,13
+abb4b97f-7423-44d1-8a74-7510af58437e,Application,Anwendung: Baumkataster Wien Query,1
+4243273b-59d3-4b5c-abd3-887ca5580d16,Application,Anwendung: Radwege Wien,1
+d02f2647-5a8c-47a8-a8b8-af1ea5f9716b,Application,Anwendung: PlayZone,2
+7a34ef9d-6576-452d-b56e-ded9d81ea6f2,Application,Anwendung: AQUArinthia,2
+e454bf6a-3321-4a86-998a-af61123eb056,Dataset,Datensatz: Seewasserstände Kärnten,4
+ba4b775e-6073-402d-9210-509125f6c5a3,Dataset,Datensatz: Niederschlagswerte Kärnten,2
+3ae637c4-4286-411d-a1c6-cf12f926455a,Application,Anwendung: wasserkarte.info - Wasserkarten für Feuerwehren,2
+6b927530-d5c9-11e3-9c1a-0800200c9a66,Dataset,Datensatz: Digitales Geländemodell - 10m - Steiermark,1
+100c8af7-a46d-4f7d-ac08-d498c1ef8009,Application,Anwendung: Spielplätze Wien,1
+5ed3c889-1bcb-44b4-ad48-a752a9a95226,Application,Anwendung: Windy,2
+7810e5a6-88c3-4a69-b7bd-5e69de753b88,Dataset,Datensatz: Windrichtung Niederösterreich,1
+46e591f0-563b-4bdd-bbbd-13b92250edf9,Dataset,Datensatz: Windgeschwindigkeit Niederösterreich,1
+39c588a1-7cbc-41fa-a5a7-8780e35f28cf,Application,Anwendung: Wanderwege Wien,1
+6dd62cb2-a715-4ce6-853f-57879543d968,Application,Anwendung: Büchereien in Wien,1
+fdc42370-55f5-4743-8fd3-39700a797812,Application,Anwendung: Story Hunter,7
+354f9aa0-2f0a-4cdf-9b60-d023da93cc76,Dataset,Datensatz: null,11
+bc401312-599c-48da-9f49-5f4f6b45f4c3,Application,Anwendung: Realnutzungskartierung Wien,1
+de9b4120-ef6a-440a-ac62-d9605d890fed,Application,Anwendung: Einfach Parken Wien FREE,4
+bd1022f2-5fdc-4f8b-8594-1714492ba379,Application,Anwendung: WienPlan,14
+6f93a16c-081d-4442-a765-04a03744464f,Application,Anwendung: LiVe - Linz Veranstaltungen,1
+bb596b23-4096-4d65-861c-a94e7cebf7e2,Dataset,Datensatz: Veranstaltung - Standorte (Linz),1
+371cf88f-9152-4bcf-a085-f49676e9c1b1,Application,Anwendung: Linz Pflückt,1
+f660cf3f-afa9-4816-aafb-0098a36ca57d,Dataset,Datensatz: Baumkataster (Linz),4
+54b95af9-e99e-4aa9-9aa3-0f991c351ec8,Application,Anwendung: Adressservice-Unterstützung für geocoder-php Bibliothek,1
+c223b93a-2634-4f06-ac73-8709b9e16888,Dataset,Datensatz: Adressservice Wien,10
+602f14ba-cc30-4d29-8b93-1ed308311562,Application,Anwendung: Oberösterreichs Naturdenkmäler und Ökoflächen,1
+0fef78d9-78b7-4aa6-a6e9-7d4106eadce7,Application,Anwendung: Öffentliche WC Wien,1
+3703fb08-ef3b-4936-94cb-b6d8b712713a,Application,Anwendung: Bushaltestellen in Wien,1
+f1f6f15d-2faa-4b62-b78b-80599dd1c66e,Dataset,Datensatz: Öffentliches Verkehrsnetz Haltestellen Wien,8
+72c33b56-45c7-406b-8ae8-6d56e37a8088,Application,Anwendung: BaseMapPlus OÖ,1
+759852cf-4979-43da-8d5a-629227c6de0a,Application,Anwendung: Museen in Wien,1
+b622f0b3-9a3f-496e-9e39-359f5b2f827f,Application,Anwendung: Graz Events,1
+f36e3404-c711-4f35-8312-757d6a6691f2,Dataset,Datensatz: null,1
+8c7110bb-0954-450e-84d3-878a5f781184,Application,Anwendung: Wo ist das? - Tirol,1
+d8beefc9-cf72-4e2c-9a78-fa1532dee407,Dataset,Datensatz: null,2
+ad4c0ab5-73cb-4203-b78c-519a6a90ce46,Application,Anwendung: RTR-Netztest Analyse,2
+13a9f9d7-f013-4b12-a990-387714039247,Dataset,Datensatz: null,4
+ab667a21-2380-4188-9f05-170f2e4fe62b,Application,Anwendung: Hundezonen in Wien,1
+9e646788-b9e3-4992-80b0-49ac3ce172c8,Application,Anwendung: Parkuhren Wien,1
+f14e16bd-a7b8-47a9-ba21-5e8afd726216,Application,Anwendung: Taxi Wien,1
+a75c772d-97b7-4e59-9e42-7727f3204322,Application,Anwendung: U-Bahn Wien,2
+ec805295-3ce0-4057-9166-31bf2d3baddc,Application,Anwendung: Fundboxen in Wien,1
+8b8b3f24-9997-42d5-a4ca-8dfef837eccf,Application,Anwendung: Vienna City Bike,1
+4166cc23-eae0-49b2-88fe-7b79868f131b,Application,Anwendung: EU-Wahl 2014 - Die Ergebnisse in Ihrer Gemeinde,1
+466cc59f-3e5f-4905-b1cb-d03c2d4b0d04,Application,Anwendung: Wave,5
+d0145df8-7f6d-46e1-9bc6-ee7897054104,Dataset,Datensatz: null,3
+00873259-7bf0-4909-bd26-17090d26a8bb,Application,Anwendung: tip-destinations,2
+405a0d29-0a62-45a7-a4d4-56c28e3255ab,Dataset,Datensatz: null,3
+fccc37ac-e4cd-4265-8d4d-5b465e19b1a3,Dataset,Datensatz: null,1
+39b4c5a7-caf2-49d2-b66d-4e78385ed364,Application,Anwendung: Dogator,2
+e28bc145-6da7-4402-a162-0f3b8521f9ad,Application,Anwendung: POIbase,54
+cda1b8eb-40ef-4229-9417-2ba29ea816dd,Dataset,Datensatz: Archäologische Fundpunkte Standorte Wien,1
+e8b9bb31-5ad1-4cc3-a0ae-177c93671d0b,Dataset,Datensatz: null,1
+84f9e5e8-4baa-42a4-a491-fb92d0258f49,Dataset,Datensatz: null,2
+f7bd721a-1f72-4bef-a38c-792f59cc8fe3,Dataset,Datensatz: Stadtspaziergang Wien,3
+d0a2a264-e452-425f-9b90-9adc6a6f41d3,Application,Anwendung: Exponiam - Kunstinkubator,1
+d594d8bd-ed6f-4926-93fd-3c7c77ef2aa3,Application,Anwendung: Einfach Parken Wien,6
+e632c87c-e766-468a-9572-00f30d2b79fc,Application,Anwendung: Kultur.app,2
+9c0a65e3-db8c-4784-98df-b856a9cd3576,Dataset,Datensatz: Linztermine - VeranstalterInnen (Linz),1
+7a2ba3e6-6bdb-4a06-a673-dc5f597ea2f5,Application,Anwendung: placis,54
+45d684ca-6ad7-4c5e-a721-64aa31795824,Dataset,Datensatz: null,5
+19987402-b592-41d5-89f7-fab3ab43fa54,Dataset,Datensatz: Kirchen und Religionsgesellschaften Standorte Wien,1
+3bda5fb3-a829-437f-93c3-ba347067129d,Dataset,Datensatz: null,1
+cabad01a-8cc7-48c0-b7e8-ffbe1e685b26,Dataset,Datensatz: null,4
+64f0f230-58c8-4b74-9bcc-3e28716307ed,Dataset,Datensatz: Apotheken Graz,1
+7aea60cb-4c5b-4794-9bfc-29972c3a0842,Dataset,Datensatz: Einsatzdienste Graz,1
+995a2fd3-b6b9-4240-8beb-157e83aaf963,Dataset,Datensatz: Krankenanstalten Graz,1
+d6513aa8-ad7e-4127-8e9c-7ceff23847d8,Dataset,Datensatz: Kinderhorte Graz,1
+257b205d-6dfb-4e47-b279-87601e368935,Dataset,Datensatz: Kinderkrippen Graz,1
+a9485d15-2f8d-4b06-b3f4-83ba7f8007a0,Dataset,Datensatz: Kindergärten Graz,1
+24f9c1ec-7df5-41ff-8f72-320f983e97e4,Dataset,"Datensatz: Universitäten, Hochschulen, Fachhochschulen  Graz",1
+0a644521-25b9-4930-a55e-debf76547a80,Dataset,Datensatz: Erwachsenenbildung Graz,1
+4904b8e4-a002-4bcd-bda3-d496eab8fda4,Dataset,Datensatz: Bibliotheken Graz,1
+19247271-ae6d-41ad-9f8d-065542303dd3,Dataset,Datensatz: Höhere und Berufsbildende Schulen Graz,1
+e4f659bd-ab8e-4bed-9955-bf26d76dc25b,Dataset,Datensatz: Universität,1
+8a59dc9f-810b-43f1-a960-99ec6d1d0322,Dataset,Datensatz: Sonstige Privatschulen,1
+5cf0474a-f6e7-4e27-8617-09bd8b405c56,Dataset,Datensatz: Polytechnische Schule,1
+fbb0e4f8-8b03-47e5-9664-1823d62b8721,Dataset,Datensatz: Akademien und Hochschulen,1
+ea1794c4-dbb8-4a55-b597-33b2cbdd62c6,Dataset,Datensatz: Höher bildende Schulen,1
+5e1ca1e8-0ecc-4875-9f03-0954bfd9a701,Dataset,Datensatz: Städtische Schülerhorte,1
+ee80ef4e-a3d6-45ac-ae8e-862fcbe31e0d,Dataset,Datensatz: Private Schülerhorte,1
+4c790f0e-052b-442c-9e96-bc87b88a043b,Dataset,Datensatz: Sonstige private Kinderbetreuungseinrichtungen,1
+3bb93411-5d34-4cf5-a1f0-664168c0db24,Dataset,Datensatz: Städtische Kindergärten,1
+82e52a92-c2d3-494c-991f-1d9d41ff0dc9,Dataset,Datensatz: Private Kindergärten,1
+1cb37603-9742-4987-b39e-02dab284cf94,Dataset,Datensatz: Private Kinderkrippen,1
+0eb9c379-1bc5-43e8-8d1d-72697f23f4a6,Dataset,Datensatz: Kirchen,1
+973d2ade-0d91-4c6f-b2d6-e19e6211d4fe,Dataset,Datensatz: Feuerwehrstandorte,1
+a16d2431-eeec-4e76-8280-b1ac7b4082ff,Dataset,Datensatz: Apotheken,2
+8d72f56e-c5ec-4160-bf66-ed8d5dc6b60a,Dataset,Datensatz: Spielplätze in Niederösterreich,1
+692e6b08-f8c3-4d1b-98b0-819a65549f07,Dataset,Datensatz: Landeskindergärten Niederösterreich,1
+4d44dbad-7cb9-44e5-94ae-45e0ec54c9b6,Application,Anwendung: Nextstop Wien für Windows Phone,3
+56b7b254-a0aa-47ea-b6e4-d1509c5accae,Application,Anwendung: WiLi for WebOS,1
+34e31917-f5bf-44f5-abe0-eb0cbacae9fa,Application,Anwendung: Hundezonen Wien,2
+5233a44e-f6a9-4b3d-a29c-9d11f750721d,Application,Anwendung: Wialangno,1
+86a1bf01-0241-49cc-8d02-774eacdfc414,Application,Anwendung: Öffi Alarm - Wiener Linien,2
+47d83ad5-d506-4bb6-a6e9-e527024889bf,Application,Anwendung: Wiener Mietenrechner App,1
+ae0f2558-2b79-4e18-8f74-4d9ce3871bda,Application,Anwendung: Baumkataster Linz,1
+f0aae978-016e-4ccd-9087-5dfa85947f5a,Application,Anwendung: Wahlsprengel-Karte Wien zur EU-Wahl 2014,1
+79c1030d-5cf6-4d58-ade6-02f66fb4dffb,Dataset,Datensatz: Wahlsprengel Wien,5
+42897ff1-c245-442b-a792-377d48f1d0c1,Application,Anwendung: Vienna Traffic Monitor,1
+a0b099d7-2262-4506-9dae-3d91b16ee7b4,Application,Anwendung: Wahlsprengel-Top2 EU-Wahl 2014 Wien,1
+ef5c4c4c-ae63-4fbc-bbf7-4e5ad92664c8,Application,Anwendung: Dog Toilet Map Salzburg,1
+15914c77-fe9b-4853-9c74-aa64d2e79b56,Dataset,Datensatz: null,2
+60311ad4-7583-4fa7-bc1c-4733d720a8de,Application,Anwendung: Badegewässer App,1
+2646025c-8ab9-4850-b76c-c2f508b34798,Dataset,Datensatz: null,3
+4e72d9a5-5c4f-46df-81e4-26d7a86297d5,Application,Anwendung: Toilet Rating,1
+960d02b7-05c7-4a71-bc65-6d16eb83591a,Application,Anwendung: hereinVienna,21
+2d940a62-70dc-408f-bd3c-cbb7e9c6f9e1,Application,Anwendung: Demographic Indicators Vienna,1
+bd871bb0-55a4-47aa-8926-04c59fdc8ef5,Dataset,Datensatz: Demographische Indikatoren Wien,1
+1dc705f0-a497-4cfb-b389-30de581a242f,Application,Anwendung: AT-WETTER,1
+9b40a0af-a6fe-47ff-9624-2ea8f40c746f,Dataset,Datensatz: null,6
+b759a178-143b-481c-abec-fefc5ad45ba7,Application,Anwendung: Kulturgut Tirol,1
+8dfe02c3-c8b6-4c0e-84ec-7dad6be0b673,Dataset,"Datensatz: Burgen, Kirchen und Klöster in Tirol",2
+5d258ca4-0965-4f2c-ab8e-690fb7913660,Application,Anwendung: Barrierefrei Parken Salzburg,1
+a01bd054-65f7-4433-b852-6c8f926a4da0,Dataset,Datensatz: Standorte der Behindertenparkplaetze in der Stadt Salzburg,3
+2f7a66e8-7417-4366-bd0b-ac7fafcdfdb6,Application,Anwendung: TaxiNavi Austria,10
+fa5f22d6-643c-4b0a-bb08-60e23f5b2450,Application,Anwendung: Open Data-Mashup zum kleinen Glücksspiel und Schulen,2
+ed0a3982-5252-46ed-b074-c430526a55b7,Application,Anwendung: Where2Go - Entdecke deine Stadt!,1
+48224762-30c0-4d3d-8201-026e236d4415,Application,Anwendung: Kultuhr,1
+baa53d7b-5cbb-4d9f-b147-d562fb7b35b8,Application,Anwendung: Isochrone Karte Wien,1
+4648259d-d2e2-4a6b-8a63-084b32eeb473,Application,Anwendung: freewave,1
+404acacd-d09b-4c66-ac31-8479d9dd4fc4,Application,Anwendung: Hydrantenplan.at,1
+5146c105-4089-44c7-a7b5-1fc351c1c4a8,Application,Anwendung: Entwicklung von OGD,1
+1f4a62eb-6f1a-4bfe-b7cd-e6dede0be00a,Dataset,Datensatz: Metadaten von OGD Österreich,10
+71e95324-8923-4588-9788-290a7fe459a7,Application,Anwendung: Super Trumpf Tirol,2
+128e3b47-1e44-3791-bee2-3b06b2cd58f4,Dataset,Datensatz: Nächtigungsstatistik ab November 1973 - Nächtigungen nach Unterkunftsarten und Bundesländern,2
+7eac0582-7ffa-4b4c-9a71-b01bc1b9ee59,Application,Anwendung: Locus Map - multifunctional outdoor navigation app,1
+0508dfa7-64e6-4fdb-a36b-cc17a86417ae,Application,Anwendung: QGIS OpenData Plugin,1
+1c4de155-4d97-4207-8a18-b254d011f9dd,Application,Anwendung: Events in Vienna,1
+26470068-0eb3-4fe2-b007-b235e336ea7d,Application,Anwendung: Kurzparkzonen Wien,6
+6d92970a-d698-418b-8576-f3b03dc1a59a,Dataset,Datensatz: null,7
+02b13cbf-faf5-43be-a4f4-61eb3e758d12,Application,Anwendung: LexioMobil,1
+4bc9fbcf-6431-4d33-97c4-6072c8fcf911,Application,Anwendung: Parkpickerlzonen Wien,4
+42d10e87-e7c8-40cf-94ca-c26c42e7efd8,Application,Anwendung: Nationalpark Hohe Tauern,1
+9ecf5959-2009-479c-90d8-c86457f6bb9b,Application,Anwendung: Dogs in Vienna,1
+71edef44-9d6c-4042-ab71-7207dc930ba7,Dataset,Datensatz: Hunde pro Bezirk Wien,2
+dc314c08-2cab-485a-8624-0d499d04d2cd,Application,Anwendung: www.oesterreich.com,1
+8ecb9533-5f83-47a3-8cab-ed5005cd5b7b,Application,Anwendung: Wiener Weihnachtsmärkte,2
+16c7fa5b-e2ac-4558-b76c-506766d3949d,Dataset,Datensatz: Weihnachtsmärkte und Silvesterstände Standorte Wien,3
+293ba310-b55c-47dd-b8b2-992ef7593a37,Application,Anwendung: wiennetz.at - schneller einsteigen - umsteigen - aussteigen - Wiener Linien Info,1
+eadfc04c-bb4a-4801-a3ba-0563922382e7,Application,Anwendung: iSKI X - your Free.Ride Xperience,1
+e2e7100e-7094-48cf-9d6d-146a52c8dd8b,Dataset,Datensatz: Lawinen.report deutsch Tirol,5
+964d3750-0341-4a04-ae2c-0d643f91963f,Application,Anwendung: Defibrillatoren in Österreich,1
+923839b2-4e69-40f9-ac7c-64f493188aab,Application,Anwendung: Salzburger Badeplätze,1
+050f108b-8299-4d30-8ab0-10a0f289d725,Dataset,Datensatz: Badestellen Land Salzburg,1
+005e0aff-dbfb-4f9b-acbf-1e1bd2a718a5,Application,Anwendung: Snowhow Freeride,4
+46a7a06a-f69b-405e-aac2-77f775449ad3,Dataset,Datensatz: Digitales Geländemodell - 10m Niederösterreich,2
+d585e816-1a36-4c76-b2dc-6db487d22ca3,Dataset,Datensatz: Digitales Geländemodell 5 m (DGM) Land Salzburg,1
+52b512bf-187c-4847-b561-2268db9562bf,Application,Anwendung: Adlerweg Tirol - Der Wanderweg für deine Hosentasche,1
+d705d383-a7aa-48ef-aa8a-d66ab25122f2,Dataset,Datensatz: Adlerweg Tirol,1
+3682b2e9-8613-44c6-b895-5ee68beb238a,Application,Anwendung: SnowSafe,2
+9a78b016-2cb4-4be3-aecd-60ff99b4f356,Dataset,Datensatz: Lawinen-Gefahrenstufenicons Tirol,2
+13d674e9-09af-46e2-94cf-7112783baba1,Application,Anwendung: wahl.furt.at,3
+2b10a91b-51d5-4e34-b992-8fd3a3121f0d,Dataset,Datensatz: Ergebnisse der EU-Wahl 2014 (BMI),2
+26f4d3e5-9ad6-456a-9045-34badb1f33cf,Dataset,Datensatz: Landtagswahlergebnisse,2
+6692c60f-b5cc-4b09-967e-4a4a1bc0174d,Application,Anwendung: Webmaps,3
+254757be-69ef-4a6c-a4c1-1432815d7522,Dataset,Datensatz: Orthofoto Österreich,12
+78305f41-7d5f-456a-857e-205a9d2a882d,Application,Anwendung: Nether Quando,3
+1be9008d-f21b-4a67-ab6c-8d33a10a65cd,Application,Anwendung: GIP IDF-Parser für QGIS,1
+3fefc838-791d-4dde-975b-a4131a54e7c5,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem Österreich (GIP.at) Österreich,9
+261a01ec-acb0-49ed-ad28-a70a7ea560b0,Application,Anwendung: tarife.at SpeedMap,1
+8d72a0fe-8a20-45f0-9ab0-b014826f4565,Application,Anwendung: Teleworking in Wien,8
+70f9f996-e430-4801-a5cb-17cf40024ced,Application,Anwendung: kigafinder.at - Die Kindergartensuche für Wien,1
+6c6bab17-43a2-404b-8926-f6f74f10cd79,Application,Anwendung: Interaktive Verkehrsunfallkarte,1
+072240da-7374-4f93-ac7a-c1e74c3febd8,Application,Anwendung: How to Reduce Range Anxiety? The Impact of Digital Elevation Model Quality on Energy Estimates for Electric Vehicles,1
+1039ed7e-97fb-435f-b6cc-f6a105ba5e09,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem (GIP.at) Straßengraph Wien,5
+51203662-719a-4120-9b64-c589efb38cb9,Application,Anwendung: Zeitlinie,3
+9bec6aa3-3cd7-43b9-823c-440c573bca80,Application,Anwendung: One2Go,4
+a6e8fa15-559f-43f2-bc59-275af22cc7b3,Application,Anwendung: ORF.at Wahl-App,2
+fff27cd6-426c-479f-ae66-077ae6f1437d,Dataset,Datensatz: Gemeinderatswahlen Wien,4
+5c510c10-a576-43e4-9ba2-e157696a1810,Application,Anwendung: Subventions-Checker,1
+2a0cb127-ea73-4cbd-a73f-e7d69d6fba5d,Dataset,Datensatz: null,2
+3a815c50-1045-4200-87cc-a1b252569a54,Application,Anwendung: rms4BIZ,1
+0fb9ae1a-92cb-4ab8-a589-470c16d4fe21,Dataset,Datensatz: RIS Daten Version 2.6,8
+6f0c7a0e-ba6c-4eb7-b0c1-2b499d03c1ac,Application,Anwendung: Facts4Stops,1
+e8f5fd52-2f85-4e95-ba37-2c4dd2efca5f,Application,Anwendung: Firmen A-Z,1
+b2c04bdd-10ac-4f4e-8d0a-f84719e56a75,Application,Anwendung: GIP IDF-Router für QGIS,1
+2d4d4882-388d-473b-a53d-9879edfd3642,Application,Anwendung: WL-Monitor-Pi,1
+da9fe1f6-996d-4b93-af0a-3987e551fbf7,Application,Anwendung: Interaktiver Parkzonenplan Innsbruck,1
+8ffd16df-e7b8-423b-8348-199e6a5bf0ca,Dataset,Datensatz: Parkzonen,2
+9fa12d47-980a-4d05-a6e4-9c41ce7a33c0,Application,Anwendung: Abfahrt,1
+f57fe972-6c62-4fbb-9659-0b9e4578b978,Application,Anwendung: basemap-google-maps,2
+d3f4a808-61e5-49b7-a7b6-1abc06757c85,Application,Anwendung: CycleTripMap,1
+8562bfb0-009c-4617-8f3f-b988039e97dd,Application,Anwendung: Wahllinie,3
+f96cd8b4-ff91-4607-911e-768d937f8dd8,Application,Anwendung: Öffimonitor,1
+5b541eea-fc3e-4eb2-a301-9ce31cdc8ee6,Application,Anwendung: Parkplatzsuche.at,2
+0a638ac5-eaac-4df6-b09a-1224215f6794,Application,Anwendung: Dianacht/Topo,1
+d88a1246-9684-480b-a480-ff63286b35b7,Dataset,Datensatz: null,9
+7266c75a-dcdc-4d95-9800-bd0faab020ec,Application,Anwendung: qando,1
+327dcf83-a737-44dd-a0b6-f3dc2b449d07,Application,Anwendung: HEROLD.at,1
+b8543991-a276-4bfa-be73-0228340ffc56,Application,Anwendung: F-Online,1
+ef1e0220-d4dc-4654-8c12-a036805fdd47,Application,Anwendung: R3 TREES,2
+06e95450-d251-4240-9654-9feeba1d7f52,Application,Anwendung: Data Finder,1
+fe7a86fc-d433-4b34-ac0a-ce0b3e800ca8,Application,Anwendung: Campus WU Wien,1
+d8f6d694-bf2f-4edd-b947-11f058b18670,Application,Anwendung: Susi - Die Info für Stadt & Region,9
+0f5c53a3-5a36-4c3b-b048-7febc3dc423f,Application,Anwendung: Lebensraum Mur,1
+4c19ba91-bc3b-4c18-8d68-7d554e34f4a2,Application,Anwendung: Netzwerkanalyse im 20. Wiener Gemeindebezirk: Polizeistandorte und der Weg zu potentiellen Unfallorten,2
+e5966ffb-b329-436e-bae3-12e74a6dc1cf,Application,Anwendung: Wahlsprengelkarte zur Wahlergebnissen auf Gemeinde- und Sprengelebene,6
+afceffe9-6f2e-48a4-8d8d-a9b83c5a69f3,Dataset,Datensatz: Wahlsprengel,1
+0cae36bb-6424-406f-8ed9-27b1d5bced57,Dataset,Datensatz: null,1
+5777dc31-1f38-4f9b-9c97-7398c12a55bf,Dataset,Datensatz: Wahlergebnis der Nationalratswahl 2013 nach Grazer Bezirken,1
+4500eee6-bb4b-47b4-a622-cca2f3803e88,Application,Anwendung: WL RBL Search,1
+ab71f058-7c2d-4e5f-85aa-9a03e2bc1dc4,Application,Anwendung: Campus Alpen-Adria Universität,1
+f17381d5-f76a-4007-a98c-2b699cfe7d76,Application,Anwendung: bergfex.at,1
+8de77074-8024-4b5f-8b95-2e8b4912e7d5,Application,Anwendung: GREX - wissen was läuft,4
+9d830f59-3fa9-40f4-9047-f3867a359a4f,Application,Anwendung: GLOBAL 2000 Bienen-Check,1
+af768d88-f2cc-4f41-81b2-12a8fbf4cdd7,Application,Anwendung: Pendlerrechner,1
+8a8e4cd7-60bc-45ef-b7fa-c1b922526c4c,Application,Anwendung: Solarpotenziale Tirol,1
+4c1e5a1a-9847-4814-8018-0bcaf7f0aead,Dataset,Datensatz: Solarenergie Eignungsflächen 2013 Tirol,1
+a2769cb0-a096-4743-bcd3-8493ba1cea63,Application,Anwendung: OpenSlopeMap - Die Hangneigungskarte,8
+b5de6975-417b-4320-afdb-eb2a9e2a1dbf,Dataset,Datensatz: Digitales Geländemodell (DGM) Österreich,2
+3d3c6c1c-56a1-4b78-af2c-56f476e91155,Dataset,Datensatz: Höhenlinien des Landes Salzburg,1
+bb8ccada-44cf-4f91-a84d-d602938c0529,Dataset,Datensatz: Isolinien 10m Kärnten,1
+e45374c0-3e40-434c-92dc-203492ccee49,Dataset,Datensatz: Geländemodell Schichtenlinien Wien,1
+a83f651d-9942-4699-92f5-a01051a43992,Dataset,Datensatz: ALS Höhenschichtlinien 10 m,1
+0454f5f3-1d8c-464e-847d-541901eb021a,Dataset,Datensatz: Digitales Geländemodell Tirol,2
+d09786ca-f4be-4302-b2db-807c68a161e2,Application,Anwendung: CAP4Access,1
+5349b414-5069-45be-8869-7d94261d4936,Dataset,Datensatz: null,2
+f588b902-ebb5-4956-acdc-28a608622a64,Application,Anwendung: Siedlungsgeschichte Innsbruck und Marthadörfer,1
+35691b6c-9ed7-4517-b4b3-688b0569729a,Dataset,Datensatz: Orthofoto Tirol,4
+647f1045-b032-480c-a8f4-87a9690ba8aa,Application,Anwendung: data.gv.at - Individualentwicklungen,1
+c8a654cf-4573-4cb9-808e-c0959c468aae,Application,Anwendung: Mapnificent Vienna,1
+ab4a73b6-1c2d-42e1-b4d9-049e04889cf0,Dataset,Datensatz: Wiener Linien – Fahrplandaten GTFS Wien,12
+1d56ac76-23d5-4a9a-ac7a-82fc91dade9d,Application,Anwendung: nicemap.at,4
+7cf0da04-1f77-4321-929e-78172c74aa0b,Dataset,Datensatz: Flächen-Mehrzweckkarte Vektordaten Wien,3
+76c2e577-268f-4a93-bccd-7d5b43b14efd,Dataset,Datensatz: Baukörpermodell (LOD0.4) Grunddaten aus der Flächen-MZK Vektordaten Wien,2
+ee97fa6e-e96c-4f37-ae3f-26b2ed3ada0d,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem (GIP.at) Namen (Punkt) Wien,1
+a573d1be-6dfd-43f7-985c-9eac838ba960,Application,Anwendung: Multimodaler Abfahrtsmonitor,4
+28288013-60b7-4e81-aa41-e99a3a1f7138,Application,Anwendung: Geoszene Wien,1
+5f40fa98-a979-45f8-9168-815be2e9d676,Application,Anwendung: Verkehrsauskunft Österreich (VAO),1
+eaacf22e-a6fa-4167-a8d8-a76c8589a5df,Application,Anwendung: geoland.at,1
+e53a8765-a0d7-4c6f-a797-92837b415189,Application,Anwendung: CityBike,1
+75d3e73e-8050-4243-9657-c9da471a6a3c,Application,Anwendung: WordPress OpenStreetMap Plugin,1
+6401d0d8-fd03-4bfc-b09c-4028a658e4e1,Application,Anwendung: Strömungssimulation & Stadtklima,1
+214a3e63-31aa-47de-a49c-5ea5a80330ed,Dataset,Datensatz: Baukörpermodell (LOD1.4) Dreiecksvermaschung Wien,5
+eb0683a1-68d0-420b-8533-16f008da1a2c,Application,Anwendung: Web-Applikation zur Graphenintegrations-Plattform GIP,1
+eee39515-6b7a-4e37-8f39-58cdf4d66c31,Application,Anwendung: OGD App Observatory,1
+7c3d1682-6182-431e-bfb1-a1eaf980fbcd,Application,Anwendung: park.ME,3
+96fa228b-2fe7-4aef-9f65-4d0b4c69b0c2,Application,Anwendung: SityTrail Austria,1
+ed9964b6-c9d8-47b9-8c68-b81c0f0d22e9,Application,Anwendung: ProOffice baum mobil+,2
+e7fe3d05-bcfe-42e4-b524-de50420671b4,Application,Anwendung: ASFINAG Immobilien,1
+89811612-ccc3-4ad3-aaf7-5558d1ebf17c,Application,Anwendung: Rydies - urban micro-mobility solutions,1
+3875b7d1-9085-48bd-a255-52da1d90bbb9,Application,Anwendung: Gemeinderatswahl Graz 2012: Bezirksrückblick,6
+1929d4af-542d-4884-94cd-bff95e537ebd,Dataset,Datensatz: Wahlergebnis der Gemeinderatswahl 2012 in der Stadt Graz,1
+de000cc7-d480-4384-a056-a90362fab95d,Dataset,Datensatz: Wahlberechtigte Personen Gemeinderatswahl 2012 in Graz,1
+27161877-c998-486d-8431-bfe2b98b01b6,Dataset,Datensatz: die Grazer Bevölkerung nach Bezirk und EU-Staatsbürgerschaft,1
+1780b0e8-297d-40c7-8341-6bba62087c53,Dataset,Datensatz: die Grazer Bevölkerung nach Bezirk und Alter,1
+a25fb527-bff2-4701-ade5-b47018bf31d2,Dataset,Datensatz: null,1
+c3c60e8f-ac01-41bf-8839-60adce88802f,Application,Anwendung: FireYak-Wasserentnahmestellen,1
+c0b86191-1296-4ad9-a95b-e0dd6a6cfd72,Application,Anwendung: GeoDemographics,12
+17f04f16-1c02-4f94-90e3-e27e92535a83,Dataset,Datensatz: Bevölkerungsprognose 2014 bis 2024 - Zählbezirke (2) Wien,1
+32b03b8c-e860-4416-a433-fab84cb935a6,Dataset,Datensatz: Bevölkerungsprognose 2014 bis 2024 - Zählbezirke (1) Wien,1
+15516cf5-09c1-4e69-acf8-3d43183dd026,Dataset,Datensatz: Bevölkerung nach Herkunft seit 2008 - Zählbezirke Wien,1
+a73c5b74-a9c9-4caa-a796-e4c832645614,Dataset,Datensatz: Generalisierte Flächenwidmung Wien,3
+38ea1e24-8129-40a2-b4da-bb4bbeee44fd,Application,Anwendung: Wassertemperatur in Österreich,1
+9a16e3d0-28b8-4a92-adad-61e5afa5b930,Application,Anwendung: Meine Öffis in Wien,1
+23f09f86-70db-4435-9455-64463364877c,Application,Anwendung: Wo ist mein Punsch?,3
+21092a31-8880-4a99-9710-2c5d246106c1,Application,Anwendung: Abfragehilfe Höhenpauschale nach RGV,2
+0390f8b6-6773-48db-abdc-4d4fe09ecd9d,Application,Anwendung: Seestadt.city-Bot,1
+b39dfc48-94a7-43a1-a0da-5edb342b478d,Application,Anwendung: Tourism Austria in Tableau,1
+fa695296-f6d6-4636-9b52-331c13b421db,Application,Anwendung: Flux,1
+d131455d-92c8-45a0-87bc-194e07668f6a,Application,Anwendung: Kibee,1
+3a4e5c88-c77b-4297-ad55-0e515e8ef981,Application,Anwendung: WienSprichtFrau,1
+15d6ede8-f128-4fcd-aa3a-4479e828f477,Dataset,Datensatz: Gendering-Wortkatalog Wien,2
+6f812da1-eb65-4c04-b0d7-dd89ce86aae5,Application,Anwendung: 4beiner,3
+140fcf01-c278-4cea-89d4-15ad12f08af2,Dataset,Datensatz: Hundewiesen,1
+e1434d41-7a02-4d60-a6db-0186f96df8b9,Application,Anwendung: Open Data hosted by SynerGIS,6
+51bdc6dc-25ae-41de-b8f3-938f9056af62,Dataset,Datensatz: Verwaltungsgrenzen (VGD) - Stichtagsdaten grundstücksgenau,5
+6d731e6e-7dcf-4bde-8061-d0e195f62f6c,Dataset,Datensatz: Verwaltungsgrenzen (VGD) - Stichtagsdaten 1:50 000,5
+d960f393-0a19-43f7-b2f1-2a79d9fc6fdd,Dataset,Datensatz: Verwaltungsgrenzen (VGD) - Stichtagsdaten 1:250 000,2
+44016a43-0efe-45c5-8318-015ac40a1236,Application,Anwendung: Memento Wien,1
+41aaa755-ae0a-41c7-85f4-6a6a8db85bcd,Application,Anwendung: WebGIS Antiesen,1
+f28be22c-9226-406b-9a82-f8dd32626715,Application,Anwendung: Mobilitätsrechner Oberösterreich,2
+ea86ddda-75f2-4bcd-a0c5-00d289213459,Application,Anwendung: gpsinfo4zemokost - QGIS plugin for ZEMOKOST,2
+70be8730-db6a-4ab6-bd28-2501d7799498,Application,Anwendung: Kurzparkzonen Wien,3
+4bbb1ed7-df30-4034-9a15-eb8305dac179,Application,Anwendung: 3D-Sonnenstand App,3
+86d88cae-ad97-4476-bae5-73488a12776d,Dataset,Datensatz: Generalisiertes Dachmodell (LOD2.1) Wien,5
+80dd5f90-8ed9-49b8-9b6e-d3c40eb46023,Dataset,Datensatz: Mehrzweckkarte Vektordaten Wien,1
+c2b5576b-0729-40f8-91b9-e449c3f84a7f,Application,Anwendung: Historische Karten & Stadtentwicklung Wien,1
+00e51fae-9ee4-40ee-b2b0-53acd5d2667c,Application,Anwendung: PegelAlarm,1
+6772e22a-a364-47df-9cf7-0590fdde1757,Dataset,Datensatz: Wasserstandsdaten Pegel HYDRO Tirol,2
+84904d5e-0171-4084-b5cd-33dc6899c596,Application,Anwendung: Wiener Bäume,1
+590e0f0b-e1f8-4ebf-b49e-87287a0feea3,Application,Anwendung: Kurzparken in Wien,2
+25687365-66e9-4bee-9e28-c677918d5a9a,Application,Anwendung: Datenspaziergang rund um die Urania,2
+a0279fdf-230e-493d-bd50-3865ad29f825,Dataset,Datensatz: null,1
+87282445-a02d-4f7f-9bf6-196d73d9b3a9,Dataset,Datensatz: null,2
+2257dfb0-d8a6-46b2-a752-41cb3dc882d7,Application,Anwendung: Explore Your Urban Environment,3
+9b773665-f50f-4272-9a40-a4966cec8f13,Application,Anwendung: Gendering Wortliste für TeXstudio,1
+92a42a74-048e-476c-bbca-d640ad6a455d,Application,Anwendung: Bird’s-Eye View upon the Austrian Open Data Landscape with wordcloud,1
+efd46de5-63a3-4a46-abff-c9b5fc00f5e3,Application,Anwendung: Tyrolean Map,4
+a0535d6d-4c34-4524-9591-e9e51e3d28c4,Dataset,Datensatz: eGrundkarte Tirol,2
+0e2f2a48-0736-4a47-a668-6d71076dd0eb,Application,Anwendung: @OpenDataATAssistant - facebook bot,1
+2b73ded2-1db1-4bbe-b555-ad451eba1870,Application,Anwendung: Sag's Wien,2
+0a147516-6d13-442f-8d70-dd73dfc09c83,Application,Anwendung: WL-Monitor-Pi-Alexa,1
+2740ea0f-eeed-4556-b72f-b63a6f7aed6b,Application,"Anwendung: Mathematik anwenden HAK/HUM - mündliche Reife- und Diplomprüfung, Maturatraining",2
+82d985c7-245f-4fd7-810f-b961edbc51cd,Dataset,Datensatz: null,1
+b6385a14-b39c-4a00-a262-a8c2308759a6,Dataset,Datensatz: null,1
+f6fb1896-f1cc-4ec8-9131-b127d7022b44,Application,Anwendung: Wiener Öffi App mit Abfahrtsmonitor,2
+b6791c32-da5f-45d9-b13b-8c2506b814ee,Application,Anwendung: parken.AnachB.at - Parkplatzbörse Wien - Einen Parkplatz in Wien mieten,2
+bf421446-9b60-4cd2-855a-532c666041d8,Application,Anwendung: data.Seestadt.city,2
+1d5c2411-9719-4c8f-b99d-57a5f4a4ae41,Dataset,Datensatz: Adressen Standorte Wien,3
+9545a69e-b450-4c44-b4cf-9022cb6cf7b9,Application,Anwendung: bodenpreise.at,1
+603a2682-3c8f-4799-bc43-7f17572c3964,Application,Anwendung: Transitland,1
+b73863d2-9c52-4dfd-b938-96bf0f9e3be2,Application,Anwendung: Parteispenden.at,1
+e9162750-dcda-4224-9804-b9d2dda17e8a,Application,Anwendung: Vergleich der Benutzung öffentlicher Verkehrsmittel vs. PKW in Wien,1
+20019419-56a5-42c2-b76c-0460e58e775f,Dataset,Datensatz: Energiebericht Wien,1
+faddf2fa-319d-41db-9eda-b1dd19328962,Application,Anwendung: CityBike Alexa Skill,1
+7f516ed3-d593-47fa-a88f-2a9f5c24d7fc,Application,Anwendung: Geospatial Open Data Visualization,6
+fe3afed8-ae00-45c5-8600-53c5c6b51874,Application,Anwendung: Hotspot Sonar für Smartphones,1
+5ab3df46-2b2e-4e94-8590-4a54ee250a6e,Application,Anwendung: Elternvereine an Tiroler Schulen,3
+945A3F8F-90E5-4761-9C6E-92F7391CC93A,Dataset,"Datensatz: Daseinsvorsorge-, Grundversorgung Tirol",1
+56498c85-d348-4aea-afbe-e7d66348e09d,Application,Anwendung: vtpk2mbtiles,1
+b694010f-992a-4d8e-b4ab-b20d0f037ff0,Dataset,Datensatz: basemap.at Verwaltungsgrundkarte Vektor Offline Österreich,3
+41ba5234-ef75-4592-8bc4-5e2857a64fdf,Application,Anwendung: Spielplatz-Scout,1
+2df24c29-aa22-452e-93ae-c36069505bca,Application,Anwendung: Urban Change in Time,2
+38aac30b-6b79-4fee-88f0-a37b2e6c0f92,Dataset,Datensatz: null,2
+b45a6730-59c5-415b-ae9b-2d712bdc323f,Application,Anwendung: Spinning Circle – Preise berechnen,2
+e67ed21a-34d2-42bb-99e4-eb7f462d4008,Application,Anwendung: Download Bemessungsniederschlag ZEMOKOST 2.0,1
+412e1c7c-e35b-4cbb-b1c7-0347a68ed6b8,Application,Anwendung: Shock,1
+9d8c3fd3-e1fa-4656-87b2-598b21365fef,Application,Anwendung: Mapline,1
+7a8aae59-71a4-4500-b38b-bdf15c7f627f,Dataset,Datensatz: null,3
+4a30667b-65ea-4272-9272-366da6b12cb9,Application,Anwendung: ris+,1
+6118504d-37a6-4eaa-bc8a-d048f814511a,Application,Anwendung: Ergebnisverlauf und Auszählungsgrad NRW 2017,1
+3179c5b2-9bb5-4a7f-a573-5491ccb0110b,Dataset,Datensatz: Ergebnisse der Nationalratswahl 2017 (BMI),3
+e11974b3-6c87-4f5c-b7c5-a5a97048f959,Application,Anwendung: Wien U-Bahn & Bus,1
+70e720cc-f5b0-4a92-bb92-2ab072e1a288,Application,Anwendung: OpenTrees.org,2
+e47b9988-63b9-43f8-8890-7e210f007a34,Application,Anwendung: Lineare Regression von Heiraten,1
+096e7096-8e0a-40a1-9da3-5cceee97d53a,Dataset,Datensatz: null,1
+72d1ef14-b4dd-49d3-a579-3609778a4b0c,Application,Anwendung: Greenify,1
+cbd65d1d-4488-4a26-8833-d32e8685c6f9,Application,Anwendung: Lokale Suche von Apotheken,1
+cf00fe06-e4b2-4319-af00-85230e7b2f1b,Dataset,Datensatz: Apotheken Standorte Wien,1
+ba1cdcd0-c665-4b73-8138-43d9b5a3e594,Application,Anwendung: coronatracker.at,1
+4b71eb3d-7d55-4967-b80d-91a3f220b60c,Dataset,Datensatz: COVID-19: Zeitliche Darstellung von Daten zu  Covid19-Fällen je Bezirk,35
+ad7d4c49-0b23-41b4-9210-6f2e1374059a,Application,Anwendung: Kurzparkzonen Wien,6
+f6d343df-9e25-486e-a6d6-264d46908e5f,Application,Anwendung: Ozon,1
+f8efb941-7259-4bea-81a0-150e187f6182,Application,Anwendung: Lawdroid AT - Österreichische und EU-Gesetze,1
+9b73c5ff-97c7-4a51-adda-3142e84f0094,Dataset,Datensatz: null,2
+780fa21e-38cf-4e53-a449-9fae3a2d1f36,Application,Anwendung: Parkingbot Salzburg - @sbgpark_bot,1
+129be567-25c5-423f-8d31-c2166d38ad56,Application,Anwendung: wahldatenbank.at,10
+8e3d16a2fe1c26ea4dc1d283aa35dc164112b131,Dataset,Datensatz: Landtagswahlen Tirol,1
+1dfe8290-3972-11e2-81c1-0800200c9a66,Dataset,Datensatz: Wahlergebnisse Landtag Steiermark,1
+0eb6493d-4caa-424d-846d-9445f19d99cf,Dataset,Datensatz: Landtagswahlen Niederösterreich,1
+2fa6a140-3693-4f20-acef-11ceec9e8a84,Dataset,Datensatz: null,1
+037ed0f2-1ac3-4aca-8b64-fb60dc145f1e,Dataset,Datensatz: null,1
+084094a8-8261-49d0-96c5-d16da89f9624,Dataset,Datensatz: null,1
+33991140-4b8a-4ac9-801b-b37a76bb851e,Application,Anwendung: zeitkugeln,1
+4059535b-52a5-4660-b4fd-e4f72a35df0b,Application,Anwendung: Parken in Graz,2
+983466ae-6b42-4808-87c1-e39cc7bfd11d,Application,Anwendung: Zeitlinie Graz,1
+91720c02-f0c2-4a88-a3a0-69bc2f7220cf,Application,Anwendung: XCTrack,1
+d7b2b2a9-89e1-4612-b588-5c0134c6069f,Dataset,Datensatz: Flughindernisse Tirol,1
+6a64f064-da1e-43aa-adce-767147d4c8d4,Application,Anwendung: Schal legal?,1
+eed8baaa-0c9f-4fad-a232-ce9b968d484b,Application,Anwendung: Bileto,2
+b450e231-2148-4f9e-9afb-149238cc937d,Application,Anwendung: OGD Cockpit,1
+05f6c1e4-ae72-45a5-b249-105212463591,Dataset,Datensatz: OGD Screening,1
+967b7bb8-2672-43ae-bdaf-779e754f6d46,Application,Anwendung: guteluft.info,2
+f2bb4f42-2c40-4c9d-890b-c2b3061bfe5a,Dataset,Datensatz: null,1
+d9ae1245-158e-4d79-86a4-2d9b3defbedc,Dataset,Datensatz: null,4
+6bf1b609-00ef-4941-b90c-b8f9157b45b7,Application,Anwendung: Telegram Bot - Air Quality Vienna,1
+ca1cf8f9-e887-4566-98f0-2d95562a5f81,Application,Anwendung: Gps4u,1
+94bf981c-fd53-43e6-9a80-45ae034d7773,Application,Anwendung: Visualisierung Nationalratswahl 2019 - Ähnliche Bezirke,1
+8becadda-124e-43f3-900e-f1ab685574e5,Dataset,Datensatz: Ergebnisse der Nationalratswahl 2019 (BMI),5
+a171d028-f809-4045-9352-45bb985cb132,Application,Anwendung: My Playparks,1
+1fcefced-27f7-43dc-8f54-1f2cb0272f35,Application,Anwendung: Die beliebtesten Vornamen Wiens seit 2000,1
+4b4c9376-addf-46c6-bf40-f2d6a026f6c5,Application,Anwendung: STADT:SALZBURG maps,1
+98769f16-60c3-4b20-b70d-cabf2d3e3f77,Application,Anwendung: Gemeindeergebnisse EU-Wahl 2019,1
+7e8c895e-073f-4e39-bcc4-a509976f4120,Dataset,Datensatz: Ergebnisse der EU Wahl 2019 (BMI),1
+07fe8434-ccfa-453f-969a-d67a22e0d4e3,Application,Anwendung: basemap.at Vektor mit Mapbox GL JS,1
+a73befc7-575f-48cb-8eb9-b05172a8c9e3,Dataset,Datensatz: basemap.at Verwaltungsgrundkarte Vektor Österreich,4
+0a147c3d-31c7-4d4c-a4ec-b059b45c711b,Application,Anwendung: Citybikes: Radfahren in Wien,1
+4f12d484-5075-44b6-8280-697121ab9488,Application,Anwendung: Moovit App,1
+1bdaef0e-ffdd-4d1c-af54-ca0d7f9fd727,Application,Anwendung: Austrian Elevation Service,2
+b9013384-84f1-4a78-94e0-8daac0eb9d93,Application,Anwendung: Defis in Wien,1
+1e11deff-2574-4b1c-9d5a-62f85967b3e5,Application,Anwendung: Offener Haushalt Engerwitzdorf,2
+81c62c6d-d7b9-49db-bfdb-66225b245c78,Dataset,Datensatz: Finanzgebarung-Einnahmen Engerwitzdorf,1
+9125f584-19ca-4465-807d-2596ca05f3ea,Dataset,Datensatz: Finanzgebarung Ausgaben Engerwitzdorf,1
+4d1f94d7-863a-445e-8eb5-8a1d31ded0ca,Application,Anwendung: Baby benamsen,12
+9861f2a3-d9ed-44e6-a2e5-34ac2b3561dd,Dataset,Datensatz: Beliebteste Vornamen in Linz (Linz),1
+8f68fe3e-d27b-440c-ba9f-c1ed3e8f987b,Dataset,Datensatz: Vornamen männlich Engerwitzdorf,1
+431d3247-42e4-4c0c-8be2-275352c07e57,Dataset,Datensatz: Vornamen weiblich Engerwitzdorf,1
+0770d1e6-8c28-4c82-ad3f-5c9e63a8888d,Dataset,Datensatz: Vornamen in Niederösterreich,2
+806c3e987d4a7fb2ae862f923b45046333d7437f,Dataset,Datensatz: Top 100 Vornamen in Tirol,1
+988368f6-7bd6-4d6a-bf60-1d07ffa6cfc4,Dataset,Datensatz: Beliebteste Vornamen in der Stadt Salzburg 2012,1
+7bc04db0-3718-11e3-aa6e-0800200c9a66,Dataset,Datensatz: Vornamen der Lebendgeborenen in der Steiermark,1
+0f00e9fb-27cd-4c70-b5c8-33a5e79aaffb,Dataset,Datensatz: Vornamensstatistik  Graz,1
+ce4f1d6f-2d98-4736-935c-0cc681412e68,Dataset,Datensatz: Beliebteste Vornamen in der Stadt Salzburg 2010,1
+1a5c0ea3-432f-45e8-a305-19dd147867c0,Dataset,Datensatz: Beliebteste Vornamen in der Stadt Salzburg 2011,1
+3678ee56-4340-4e9d-bd59-379cb3c69103,Dataset,Datensatz: Beliebteste Vornamen in der Stadt Salzburg 2013,1
+a4c4c8a8-bbfd-4768-b1d4-a3a7ee6a57e3,Application,Anwendung: Vienname,1
+207c4e0b-29cc-4b75-907d-6cd9ab59cd06,Application,Anwendung: Woody,1
+d97e67c1-438a-45b7-8875-c0b52ca2395e,Application,Anwendung: Schwimmen in Wien,3
+456b6f5d-3c8c-49f9-86cc-2c8657f13b5c,Application,Anwendung: Studie zur Visualisierung von Planänderungen des Flächenwidmungs- und Bebauungsplanes,3
+bb86970f-3cef-4f9a-a79b-ff277ea925c8,Dataset,Datensatz: Geländemodell Dreiecksvermaschung Wien,2
+25b694ad-802b-4f64-bcbc-09897b0dcbf7,Dataset,Datensatz: Generalisiertes Dachmodell (LOD2.1) Dreiecksvermaschung Wien,3
+948e296b-abfa-49bb-90f6-bef4c94471f6,Application,Anwendung: MeetArt,1
+c1121b8e-fea3-4ef4-bc71-7f56fd2b50fc,Application,Anwendung: infizierte.at,2
+785b29a3-ec82-4b5e-9085-cccba063a19c,Dataset,Datensatz: COVID-19: Aktuell gültige Impfzertifikate in Österreich (gültig bis 31.7.2022),1
+95986c1a-8263-4cd3-b7aa-a38266b33a02,Application,Anwendung: Platzerl Finder,1
+601fc386-41dc-4ced-9345-ad6254aa5bd7,Application,Anwendung: Statistik Niederösterreich,9
+fde11447-12cf-4333-bed9-c37056551e0c,Dataset,Datensatz: Bevölkerung nach Alter und Geschlecht Niederösterreich,1
+d91833f6-da35-4b2e-b7bd-70c342f45cf3,Dataset,Datensatz: Bevölkerung nach Gemeinden - Volkszählungen Niederösterreich,1
+a6cb8349-0327-400a-879b-df7167080e4a,Dataset,Datensatz: Bevölkerung nach Geschlecht und Gemeinden Niederösterreich,1
+32ab3b13-c3a1-461c-b781-5740ac52b27a,Dataset,Datensatz: Bevölkerung nach Migrationshintergrund Niederösterreich,1
+8d64dce7-2940-4bd5-b92e-e4b19ea110c6,Dataset,Datensatz: Katastralgemeinden Niederösterreich,1
+37b73723-af41-446e-8a06-adb7ebed48a1,Dataset,Datensatz: Lebendgeborene nach Geschlecht Niederösterreich,1
+aae06e72-4481-4ec6-b0f4-138b6c696f73,Dataset,Datensatz: Sterbefälle nach Geschlecht Niederösterreich,1
+cb45bff3-65f5-46a2-b340-516f3994a41e,Dataset,Datensatz: Wanderungen nach Gemeinden Niederösterreich,1
+75eb3df9-2bee-4f86-9383-e15cfc182cef,Application,Anwendung: Baukörpermodell Wien Visualisierung,1
+b880487d-6ad7-49b5-ab6c-65e09007f1d4,Application,Anwendung: Tischtennis Wien,2
+bf4875ce-93db-4563-a214-dd24db5b12a1,Application,Anwendung: Bäderampel Wien,2
+5af8f177-9e6f-4450-825e-fbe3bd1e55c8,Application,Anwendung: Corona Zahlen Online,2
+ef8e980b-9644-45d8-b0e9-c6aaf0eff0c0,Dataset,Datensatz: COVID-19: Zeitliche Darstellung von Daten zu  Covid19-Fällen je Bundesland,30
+584ec4b8-8bd6-4b9d-92f2-fffb0aff01eb,Application,Anwendung: Karte mit Gemeindebauwohnungen pro Zählbezirk,3
+a5987f3c-3131-4e6e-b91c-fe0756e69926,Dataset,Datensatz: Gemeindebau Standorte Wien,2
+89038042-a878-4b47-88b2-2fd3e32a4f05,Application,Anwendung: Telefonvorwahlen und Postleitzahlen,3
+f76ed887-00d6-450f-a158-9f8b1cbbeebf,Dataset,Datensatz: null,1
+6c4f8a28-1909-4096-af71-94b6c08809fc,Dataset,Datensatz: null,1
+af59bcfd-b020-49d1-9632-35aba28b8e5e,Application,Anwendung: Wiener Mortalitätsmonitoring,1
+feaddbdf-ed07-4c37-818a-db63447d5567,Dataset,Datensatz: Mortalitätsmonitoring Wien und Österreich,1
+020b688a-9393-4c81-8c92-c96e5bf2762b,Application,Anwendung: Immobilienseiten Österreich,1
+17a1abd4-416d-4111-9dc3-15fa44a4608b,Application,Anwendung: COVID-19 Dashboard Österreich,6
+3765ed62-0f9d-49ad-83b0-1405ed833108,Dataset,Datensatz: COVID-19: Daten Covid19-Fälle je Altergruppe,9
+2f6649b6-2b2d-49a9-ab31-6c7e43728001,Dataset,Datensatz: COVID-19: Daten Covid19-Fälle je GKZ,13
+846448a5-a26e-4297-ac08-ad7040af20f1,Dataset,Datensatz: COVID-19: Daten zur Auslastung in Spitälern und Testergebnissen,17
+d3b85461-fc0d-3639-9aa9-39211c4ecade,Dataset,Datensatz: Gestorbene in Österreich (ohne Auslandssterbefälle) ab 2000 nach Kalenderwoche,5
+009c5216-e203-480d-9e5b-a1a7a17456b7,Application,Anwendung: Mein Wien,69
+25267974-6d44-455e-b76f-248e29ff7df7,Dataset,Datensatz: null,4
+69e6ff08-39af-4764-8de8-b75e5de7295f,Dataset,Datensatz: null,1
+ef474003-b774-4b22-8912-fb95966f44be,Dataset,Datensatz: Wiener Linien WLAN Standorte Wien,1
+af468794-caa3-4565-8e69-a838332e532d,Dataset,Datensatz: null,1
+88e7ff53-257d-4299-99b5-c659b87b5116,Dataset,Datensatz: null,1
+3df7a50f-108d-40bc-a041-e3092fc50a81,Dataset,Datensatz: null,1
+5de779c2-93fc-4830-8e36-93e9ff1e7f7d,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem (GIP.at)  Verkehrsgraph Wien,1
+79e7e34e-4d2f-46be-8a40-24a84b20b1ba,Dataset,Datensatz: null,1
+da8fc842-d9cd-4a8b-9dcf-642ebdbc9049,Dataset,Datensatz: Hochwasser-Gefahrenzonenplan Wien,2
+fa499042-c486-42a0-973a-7211490c1764,Dataset,Datensatz: Energieprojekte Wien,2
+625e8422-dedb-47eb-b158-23ba1f07f760,Dataset,Datensatz: null,1
+dcb4ba1d-94c6-48b9-82c9-e315bd0e8f31,Dataset,Datensatz: null,2
+c294da25-b556-4bd6-9e1a-343b28279a33,Dataset,Datensatz: null,1
+636db558-6bde-477d-a417-0f62636e59bc,Dataset,Datensatz: Parklets Standorte Wien,1
+336bbdae-a29d-47c5-8c0d-f51affffd44f,Dataset,Datensatz: Elektroladestationen Standorte Wien,3
+4f677177-23bc-4f0a-8dbf-578762c8d976,Dataset,Datensatz: Covid-19 Checkboxen Standorte Wien,3
+fdcaabe5-0efd-4701-8fd9-49935c0d9cff,Dataset,Datensatz: Ärzte Standorte Wien,1
+d13d3866-2c68-4353-9a41-c29ebf1a3abc,Dataset,Datensatz: Grätzlrad - Transportfahrrad-Sharing Standorte Wien,1
+aa12dc22-ba50-42a0-bda1-30d41c64d5eb,Dataset,Datensatz: Luftpumpen und Radservice-Einrichtungen Standorte Wien,1
+2cbdf333-97e9-4c91-b846-17a8e8c167d8,Dataset,Datensatz: Radfahren gegen die Einbahn Wien,1
+60dfd38a-5ea3-444e-8cdb-e5818f01596c,Application,Anwendung: QNEAT3,3
+6adce52a-da27-4f16-afd8-8481b39e238d,Application,Anwendung: Corona-map,1
+8f2913c8-5856-4b30-a52d-c2928f8bd7aa,Application,Anwendung: STATatlas - interaktiver online Atlas von Statistik Austria,4
+ca996648-ed34-3dcd-a99f-68619f680241,Dataset,Datensatz: Regionalstatistische Rastereinheiten,1
+81f390f9-9b42-3a72-ad9b-e11a4dbebab0,Dataset,Datensatz: Gliederung Österreichs in Politische Bezirke,2
+566c99be-b436-365e-af4f-27be6c536358,Dataset,Datensatz: Gliederung Österreichs in Gemeinden,5
+8bd6bc24-86f0-480c-842d-6f52d4b6589b,Application,Anwendung: ÖGÖ – Österreichs Grüne Öffis,2
+884c0d9f-f790-41c2-a2a5-351b7c434896,Dataset,Datensatz: Linien der LINZ AG LINIEN (Linz),5
+4cf68e3e-da9b-49a5-ac82-6688655c135b,Application,Anwendung: Österreichisches Adressregister,1
+16ddb2dc-45eb-48ab-a7ea-2b8708571596,Application,Anwendung: AQC - Air-Quality-Chain,1
+e0bff65f-dbf2-4c85-be41-223af841c054,Application,Anwendung: Urban Trees,1
+ffa113f6-b3e5-4efe-9ac5-cbcbc8a763a3,Application,Anwendung: Polizei Dienststellen Finder,1
+5946eb79-b6c2-4cf8-b0d1-4695e5e88cdc,Application,Anwendung: Plot (auszugsweise) zu Umfrageergebnisse Open Government 2018 Wien,1
+e3a62956-16ba-4368-bc06-852796c261cb,Dataset,Datensatz: null,1
+11a86699-2f7f-49dd-8a85-8ac485cd2852,Application,Anwendung: wegfinder,2
+31416a3d-5a44-4f78-8b2c-765a2738aacc,Dataset,Datensatz: Adressen Relationale Tabellen - Stichtagsdaten,4
+8fe5fc5b-818e-41cb-ae7c-4ce77665ea05,Application,Anwendung: How-To: hosting basemap.at vector tiles offline,1
+168a40a7-8f27-4df2-93a3-becd88213376,Application,Anwendung: Täglich gemeldete Covid-19 Fälle pro Bezirk,1
+5d91bf1f-31c0-4446-8d7c-fe2cb3bdfc97,Application,Anwendung: Citymapper,2
+876d204c-3615-49e0-9b46-517c977f4bd7,Application,Anwendung: OpenVTPK,1
+5bd511ac-c1ea-4e3b-8b4c-1dba49ee9838,Application,Anwendung: Ladezonen zur Tourenoptimierung in Wien,2
+2ed7403c-5acc-499f-a317-a911da03d9da,Dataset,Datensatz: null,1
+fe5528be-c1b5-41d4-8935-53a8172dc0da,Application,Anwendung: Stadtfahrt,2
+b2504c26-e7b1-40ff-8bd8-f8e55cf13112,Application,Anwendung: Terrain RGB,2
+7137fb45-733e-4e1c-b0ce-fedb8b7b3c67,Dataset,Datensatz: null,1
+f2702f48-ae84-40cb-8e97-3de0767b8726,Application,Anwendung: 2019 Austrian General Election Results,2
+7d98c0c4-ae53-4da8-b5cf-711e04c3079d,Application,Anwendung: Wilis Störungsmonitor,1
+de87d70e-915c-40c8-8565-fa2f5aa42bc9,Application,Anwendung: TENDERA,22
+3ad7b1eb-cac6-47b2-b957-ffba17606425,Dataset,Datensatz: Metadatensatz zur Kerndaten-Sammlung gemäß BVergG 2018 von 'Rechnungshof',1
+6241cad8-eafa-46ed-b72a-139d293c4cb5,Application,Anwendung: Advolist,1
+2bd37a73-132b-4edc-a0bb-4751186d291f,Application,Anwendung: Bundesländergrenzen Österreich,1
+6935d18d-831d-4524-b850-0e0fdcc0dcf5,Application,Anwendung: COVID-19 Dashboard Österreich,2
+ccdea93a-1c28-4e3c-8556-bf556f9eee3c,Application,Anwendung: AustrianElevation1m,1
+4319e42f-8625-4385-a555-0cdbcda78672,Dataset,Datensatz: Höhenservice Österreich,1
+3b674b08-6ce7-47e4-baf6-0c5bbca18638,Application,Anwendung: Verlauf der Reproduktionszahl,1
+fbc9d554-d9b7-47ca-b8ac-dd929160b5a8,Application,Anwendung: COVID-19: Bezirke und Länder mit Zeitreihe und Min/Max,2
+229ccf17-d391-4f1f-ab46-ea12993f20cd,Application,Anwendung: /av/alanche /da/ta /vis/ualization,1
+bb43170b-30fb-48aa-893f-51c60d27056f,Dataset,Datensatz: Wetterstationsdaten Tirol,1
+b0ccff09-45e0-46a0-ac52-5f9fe49cd594,Application,Anwendung: Uber Movement,1
+03c22ef2-e151-489d-b18b-ba10e285ae02,Application,Anwendung: app.SharedMobility.ai,2
+4da00315-74a4-43dc-b9f0-9428051264b3,Application,Anwendung: Presseförderungen - Zeitungsstatistiken Österreich,1
+8e9cba91-c956-49fc-8567-99aa17caa02c,Dataset,Datensatz: null,1
+23e6a4ef-5edd-462e-9a29-161e245432ac,Application,Anwendung: CityHikes - Wiener Stadtwanderwege,1
+60dd8dfc-3858-4096-b2df-544db8120827,Dataset,Datensatz: Wanderwege Wien,2
+81593ecd-9693-4cd4-8df9-bc7cb0d7cdf0,Application,Anwendung: Urlaubsguru App,1
+3b30087e-8454-4706-b649-a924660d64ff,Application,Anwendung: ViennaTransport API,1
+b53e6f6d-94dd-4101-a480-8d3bc012b18b,Application,Anwendung: Sozialmärkte Wien,1
+4906cb00-f854-44e6-bd90-744cc2111887,Application,Anwendung: Wandelpad,1
+3b1a5a2b-72fb-430d-bd82-14bcfc3338a1,Dataset,Datensatz: Wanderungsströme nach Nationalität seit 2002 - Wien,1
+cddc4437-c250-41a2-9d6d-07dbc292a54c,Application,Anwendung: Amtliches COVID-19 Dashboard des BMSGPK/AGES,5
+d18b15c2-2fbe-49bf-acf6-9bbd68603783,Application,Anwendung: Free Maps,2
+efb5c10a-dad4-4a2d-a9a3-4f944f09776d,Application,Anwendung: MagicMirror Wiener Linien,2
+cd518854-05f1-42b1-a413-77cb9530f523,Application,Anwendung: TrekkingTrails.de,1
+a0099817-6f29-4768-8653-58c9218b2c8e,Application,Anwendung: COVID-19-WeatherMap,3
+434ceaa0-1ec7-46ab-9ce2-6009123474f4,Application,Anwendung: Similio,2
+cdb50c3b-1b3c-435c-a487-6d31944c5f0c,Application,Anwendung: Wanderlust,1
+7bd03b2e-8891-4430-a371-1403a5b4a5eb,Application,Anwendung: Wolfi's Trip,4
+f365dfc2-6d70-4725-a6e0-a5e478c1f79f,Dataset,Datensatz: Hotels und Unterkünfte Standorte Wien,1
+2bea09cd-f258-41b0-acdc-183f6a3c474b,Application,Anwendung: PALM-4U-Modell für Wien,2
+5f42e7e0-3baa-4718-90d1-bb39186d6822,Application,Anwendung: Immospotter.at,1
+2ec087a6-02b1-4125-b518-06360b7f0e34,Application,Anwendung: Wiener Bäder Ampel - Alexa Skill,1
+35e63cac-f4aa-40b2-bdb7-cf5252b2030d,Application,Anwendung: Polizei Standorte Wien,1
+4e5c9414-2886-462e-b19f-a598ad065522,Dataset,Datensatz: Polizeidienststellen Österreich (BMI),2
+241fa56f-df13-4f09-ab84-f664858d142a,Application,Anwendung: Covid-19 Visualisierungen,1
+3dee85e4-d235-4fe9-9412-7f6e66b67cda,Application,Anwendung: E-Control Ladestellenverzeichnis,2
+ef680c5f-fa70-4719-8253-e3a5fe5f9355,Dataset,Datensatz: E-Control Ladestellenverzeichnis API,1
+5fc40698-fad6-4f1b-bae4-b90bbc686190,Application,"Anwendung: Covid-19 - Genesene, Erkrankte & Verstorbene",1
+1b5cc8b4-1620-4ada-a74f-a2f9d63d09b9,Application,Anwendung: Laketheory,1
+98fafb76-bb41-44ab-9ca2-5f1f8c2aff96,Application,Anwendung: Elasticsearch & Wiener Linien Data,1
+eacb0cf4-3eeb-4847-854d-5c102015784d,Application,Anwendung: covid-19 Austria,3
+a8217501-daca-4edf-8318-b53eba3888d1,Application,Anwendung: COVID.hallofreunde,1
+bf6724d7-4a65-44df-ab3c-f8e85043cb87,Application,Anwendung: Digitale Bodenkarte (eBOD),2
+4c39f816-dc04-43f7-b99a-9523e76ea7b0,Application,Anwendung: Schicho's Mobile Corona Ampel,1
+52abfc2b-031c-4875-b838-653abbfccf4e,Dataset,Datensatz: Corona-Ampel (Risiko-Warnstufen System),19
+d9132565-5b85-4ada-a1dc-0b90f8b587cb,Application,Anwendung: Covid 19 - Anzahl der Personen positiv getestet,1
+f8701008-0d61-4d38-89df-da2ec1127dcf,Application,Anwendung: RechtEasy.at,1
+697bde21-4295-4daf-a579-e21f5bcd8423,Application,Anwendung: Müll-Checker,1
+3810778f-f3ad-4032-9df7-dadaa8dd9726,Dataset,Datensatz: Abfallsammelstellen in der Stadt Salzburg,1
+2349e71f-f55b-4fbb-91a1-e66819e12731,Application,Anwendung: COVID-19 Tracker Austria,1
+5e805068-244a-49c8-813b-908bf346a040,Application,Anwendung: Dashboard COVID-19 in Österreich,5
+3bdf76de-1eba-48ba-ad6f-9077cc350ad0,Application,Anwendung: COVID-19 Grafik Plattform Österreich,3
+f79bbb6f-a351-4ad7-bdd1-50f0410733d4,Application,Anwendung: Covid-19: Spike map der Fälle/Bezirk,1
+725eb125-47b2-41ba-93bb-5bebc7c5084d,Application,Anwendung: Coronavirus - Österreich,1
+93a942bb-3a39-42ee-a8ff-caeccce59fa6,Application,Anwendung: PKW-Zulassungen,2
+6fc1c927-bf21-3d72-9333-a9055493ab3c,Dataset,Datensatz: Pkw-Gebrauchtzulassungen nach Marken ab Jänner 2000,1
+1446c895-cd1f-3ed4-8dd2-66fee300c16e,Dataset,Datensatz: Pkw-Neuzulassungen nach Marken ab Jänner 2000,1
+1bad31d8-1a0e-4d57-a9fc-389add1a8e99,Application,Anwendung: Atenas,1
+7d8a981a-5a8d-4a72-a57c-a3a708d1138b,Application,Anwendung: CoCeSo - Coordination Center Software,1
+c409058d-01a3-4d32-a286-59b690c5d5e0,Application,Anwendung: Coronavirus in Österreich: Daten und Karten auf ORF.at,1
+1f5b50c8-7bbe-4ab8-896d-05d8c91e28e1,Application,Anwendung: Corona-Ampel des SC Marchegg,1
+bf70fc7f-68f8-4ea7-b4ff-83c075cb97a9,Application,Anwendung: FW-Info,1
+42921357-f1a6-445f-917a-a280a064f82e,Application,Anwendung: Corona-Ampel Darstellung,1
+1e1a83f6-0b9d-4a02-9dc0-c0b97f2f393e,Application,Anwendung: Ausreisetests.at,2
+34b5e20d-615a-4c4f-91f4-c36db206fd80,Application,Anwendung: Virus Atlas Österreich,2
+4bd85183-cba6-3079-881d-45981f1f9f78,Dataset,Datensatz: Bevölkerungsstand zu Jahresbeginn 2019,2
+af3703e3-8c05-4739-9d59-bbe6d581f24b,Application,Anwendung: lidovienna - Stadtentwicklung links der Donau,5
+b411c576-e81b-490b-9c5b-8ef36f4f542d,Dataset,Datensatz: Luftbildplan 1938 Wien,2
+d025f670-5719-417e-8750-07b9178e7d92,Dataset,Datensatz: Luftbildplan 1956 Wien,2
+eec2fb76-3b7b-4f64-a8d1-2f9778a57adb,Dataset,Datensatz: Orthofoto 2014 Wien,2
+c730ccdd-279c-4a5a-8d48-90ad78f0a02f,Application,Anwendung: Corona Ampel Status Infotelefon,1
+7ce52e7f-b9b4-4ad3-b4fc-4834edbd2d7c,Application,Anwendung: Corona Information Bezirk Schwaz,1
+4a215742-621d-4b2b-8733-c68e1369d793,Application,Anwendung: Wahlsystem in Wien,1
+a3b4d792-68ac-4027-a3c7-b5d6c595277a,Application,Anwendung: Ladezonen Wien App,1
+b616f40b-958e-49b9-937e-0fccf5f63064,Application,Anwendung: TransitArt,1
+b9992669-4a51-44fc-bfb6-4f9b4e6399d1,Application,Anwendung: Wie Weit?,3
+919d40b2-031f-430e-bf6c-4183f6dc8b64,Dataset,Datensatz: null,2
+b3c46ae3-d100-4cd5-b8fa-a3e0fc21e3c0,Application,Anwendung: wassertemperatur.at,1
+586e08a5-1ca6-400b-b2e2-dfd8fd3f429d,Dataset,Datensatz: Hydrographie - Messdaten,2
+473f9ed0-8bc4-4b6e-bd9a-9791dfb0bbb1,Application,Anwendung: imGrätzl.at,1
+673ab238-d1e6-4f4e-844d-2f3d88af48c4,Application,Anwendung: Population: dogs in Vienna by district 2020,1
+a57afd59-1c38-4208-b100-0eff9ccf7e91,Application,Anwendung: Apple Maps Integration der Wiener Linien GTFS Verkehrsdaten,1
+9e800b28-fcc9-4cd9-b0dc-d6ec8e0d0667,Application,Anwendung: lab.at COVID-19 Grafken,1
+d4acf559-e513-4162-9160-88c7f53fb22d,Application,Anwendung: Radwege in Wien,1
+cc6e6c2e-a21a-445a-82c0-d30c80e81f94,Application,Anwendung: arriva vienna,1
+7cfc6649-6318-4651-ab3b-701ceb973177,Application,Anwendung: Covid19 Prognose,1
+733859cc-b771-4f04-9d83-a7bce4e78262,Application,Anwendung: Wiener Hofburg 3D-Druck,1
+023777c3-ef68-4b97-bdec-e6d62e013def,Application,Anwendung: Atlas der Sterbefälle,3
+14589f68-d1ac-3be8-ad3d-07249865fb85,Dataset,"Datensatz: Altersstandardisierte Sterberate in Österreich (ohne Auslandssterbefälle) ab 2020 nach Kalenderwoche, Bundesland und Bezirken",1
+6f529d58-9a21-3da9-8c33-d191178d7657,Dataset,Datensatz: Altersstandardisierte Sterberate in Österreich (ohne Auslandssterbefälle) ab 2000 nach Kalenderwoche,1
+5a473b37-90ff-46ff-ad78-8cefac12b884,Application,Anwendung: ICU-Dashboard,1
+75d94d26-a5a1-4761-8a6a-e71e6dd297ad,Application,Anwendung: Badewaschel,2
+514a6685-8d51-4f93-9ef1-94395dd39227,Application,Anwendung: GemeindeApp Österreich,1
+3505b772-05fc-40f2-9bee-0d914071c909,Application,Anwendung: COVID19 Entwicklung Österreich,2
+002c85ba-4f0c-4cee-b645-bbd5c31f995b,Application,Anwendung: Corona Dashboard,1
+7b14435a-bee1-4e96-b11b-81406fab75bb,Application,Anwendung: Erreichbarkeit der Gratis-Covid-Teststationen,3
+e5cca30b-299f-496b-8162-919dca91d94e,Dataset,Datensatz: Standardbeschreibung der Graphenintegrationsplattform (GIP) Österreich,1
+1dfdd71b-12c8-4f9f-9de6-12ae952ba219,Application,Anwendung: COVID-19 Austria Hotspots,1
+6d5d2077-0110-47a9-a8b8-d7b0667f6c32,Application,Anwendung: BAM Ticketing,1
+bb1191f5-427f-483a-b060-c0c2eff08363,Application,Anwendung: Entwicklung der 7-Tages-Inzidenz zu Covid-19 in Österreichs Bezirken,2
+7e0d1134-ccfb-3255-a539-e086d1d7aa29,Dataset,Datensatz: Siedlungseinheiten,1
+eb2b0177-b69a-439b-9a2b-782cd2eb1a77,Application,Anwendung: Corona-Ampel Widget,1
+a03255e4-bc1c-4756-8c07-8b5ccdce14bf,Application,Anwendung: daheim.in,3
+a5e21846-714b-443a-b560-24624ef52e1f,Application,Anwendung: COVID Daten regional mit Zeitreihe,8
+734a5746-bbda-4fc0-8eb3-52c6325ceb88,Dataset,Datensatz: COVID-19 Schutzimpfungen - Ausgelieferte und bestellte Impfdosen,4
+4312623f-2cdc-4a59-bea5-877310e6e48d,Dataset,Datensatz: COVID-19 Schutzimpfungen - Eingetragene Impfungen im e-Impfpass,9
+7effe370-ce79-4286-b299-c5d851f546ff,Dataset,Datensatz: COVID-19 Schutzimpfungen - Gemeldete Impfungen der Bundesländer,4
+919ada8d-5af6-4ad8-a890-dcf9a1e30f8b,Application,Anwendung: COVID-19-Vollimmunisierungsgrad Österreichs nach Gemeinden,1
+4532a95c-95e8-44da-9bac-9d56e8ab39c2,Dataset,Datensatz: COVID-19 Schutzimpfungen – Impfungen in Gemeinden,2
+947e0cb7-c71e-4515-9471-c02ab884b097,Application,Anwendung: Geodaten Visualisierung,6
+44720e90-c2de-497b-8162-3810206dd011,Dataset,Datensatz: Niederschlagsdaten Stationen Hydrographischer Dienst Tirol,1
+41760DF5-1EBF-424C-8251-EA0466BC2EE5,Dataset,Datensatz: Almzentren Tirol,1
+941cd994-a89e-45da-a208-5b9cc5e7e0e6,Dataset,Datensatz: Naturparke Tirol,1
+4c64b08f-d015-47da-8df9-af76dff149cd,Application,Anwendung: Furtbot,1
+8160dafd-84e7-4540-b9f1-32e6ecff0409,Dataset,"Datensatz: Furt, Status",1
+7123974b-fe71-4c9d-8393-304c15aca9e8,Application,Anwendung: First-past-the-post vs Proportional Representation,3
+3354bec9-92ad-467f-a102-bb42a8f65d09,Application,Anwendung: Covid-19: 2020 im Rückblick,2
+83d905be-56ed-45d5-ba74-65bc9d709444,Application,Anwendung: Hochrechnung bis zur Vollimmunisierung,1
+8a8b8025-380a-4914-9d8a-e210ab36b598,Application,Anwendung: touren.labut.at,2
+7288f7f2-79ae-41e3-9544-43f6518a58e6,Application,Anwendung: Covid-19-Inzidenz aus mehreren Quellen in einem Diagramm,1
+f33dc893-bd57-4e5c-a3b0-e32925f4f6b1,Dataset,Datensatz: COVID-19: Zeitverlauf der gemeldeten COVID-19 Zahlen der Bundesländer (Morgenmeldung) (gültig bis 12.09.2022),3
+eb33f409-b2a3-4a5e-a1aa-6ca3c8d976ba,Application,Anwendung: Landtagswahl Niederösterreich 2023,1
+ae8d0790-fb6e-46e9-bcbe-984766810e09,Application,Anwendung: HFCS-International-Key-Figures Dashboard,1
+eadb9328-97cb-4cac-b885-032f26f349cc,Dataset,Datensatz: HFCS: Internationale Statistiken - zu den Vermögen und der Verschuldung von Haushalten,1
+7b10fc94-bf31-49fa-80cf-f04fecf630ea,Application,Anwendung: Website-Widget des Corona-Ampel-Status für Hallein,1
+ec92d501-138d-436f-8036-3b38c5a4271f,Application,Anwendung: Corona Ampel iFrame,1
+56d7dc51-8ea7-402b-afd4-62e63e698d8e,Application,Anwendung: Rechtssatz Bot @rechtssatz,1
+7d2f1886-0059-4204-be29-6dc774799f23,Application,Anwendung: Visuell-Kognitive Auswertung,2
+808ef482-f28e-4bb9-8895-30f2e81010f0,Dataset,Datensatz: Digitale Orthophotos Steiermark Flugperiode S2008 - 2011 RGB + CIR,1
+cdb89665-1fa8-4af3-9c76-27afbccc6628,Dataset,Datensatz: Digitale Orthophotos Steiermark Flugperiode 2013 - 2015 RGB + CIR,1
+2c8a170a-3070-4f99-9251-15316e9db3a5,Application,Anwendung: Corona-Ampel (Risiko-Warnstufen System) Visualisierung,1
+966b0a77-2a66-4382-8862-5fa3ce907805,Application,Anwendung: Corona Ampel als Cartogram,3
+87dd1233-938d-39a3-84b7-84f6bc953747,Dataset,Datensatz: Bevölkerung seit 1869 für Politische Bezirke und Bundesland,1
+647b7f93-281e-4fc5-a6aa-91b38d4afb62,Application,Anwendung: COVID19/Corona Testlocations,2
+1b35e68f-df9d-448a-8077-ca58759da0a2,Application,Anwendung: Realtime Monitor Wiener Linien,1
+b117feae-5d25-4b2a-96d1-c522960db97b,Application,Anwendung: Covid-Checker.de,1
+c58a9f0c-004c-45ad-944c-7157c3055310,Application,Anwendung: tauernhoehenwege.org,1
+a9d8a419-eb44-4d95-b0ce-cc76c6c10727,Application,Anwendung: Einkaufszeit Österreich,3
+3ae40a5c-88ce-4cfe-8fa1-f64d97c47bd4,Dataset,Datensatz: Apotheken Land Salzburg,1
+f0762815-9ab0-495d-8dee-98164af54cbc,Application,Anwendung: DAttE – Detection of attic extensions,1
+b0f742b8-4ab8-4cfc-ac35-2b622a410509,Application,Anwendung: Corona-Ampel Region Wiener Neustadt,1
+de1cffad-61a9-4942-a943-db52ffe2c212,Application,Anwendung: Mehrwöchige Forecasts der Intensivbettenbelegung,4
+276ffd1e-efdd-42e2-b6c9-04fb5fa2b7ea,Dataset,Datensatz: COVID-19: Zeitreihe der verabreichten Impfdosen der Corona-Schutzimpfung (gültig bis 31.7.2022),3
+7cfb6d57-2703-4ab7-98d5-535b9583b078,Application,Anwendung: FOGIS - Fonds-Geo-Informations-System,3
+e29b1a12-e68b-49be-8142-45b2f5134429,Application,Anwendung: Citywalx,6
+cede9004-ba9f-4a4f-8bed-773927c17f48,Dataset,Datensatz: Bevölkerung nach Geburtsbundesland seit 2008 - Zählbezirke Wien,2
+6fdea17f-9eac-4860-8b35-6108e792e6b1,Dataset,Datensatz: Durchschnittsalter der Bevölkerung seit 2002 - Bezirke Wien,1
+d76c0e8b-c599-4700-8a88-29d0d87e563d,Dataset,Datensatz: Durchschnittliches Nettoeinkommen seit 2002 - Bezirke Wien,1
+b29308e9-3888-44be-ac2f-8f1515ac0347,Dataset,Datensatz: Bildungsstand der Bevölkerung seit 2008 - Bezirke Wien,1
+cb105ed2-9000-4de7-8edc-4e3f73b6ed43,Application,Anwendung: Bundesgesetzblatt Twitterbot @BGBl_Bot,1
+2835d637-b50e-42cf-abc5-b682f8f0173a,Application,Anwendung: Covid in Austria,1
+11cf2dd6-d01c-4ca8-893a-4c1a1a9d542f,Application,Anwendung: Die zweite Welle,5
+3591613c-8582-49c7-96f6-b55d3889b6b2,Application,Anwendung: Corona-Tabelle mit Statistiken und eigenen Vorhersagen,1
+31a886a1-b60a-47b6-8833-a3172685c71d,Application,Anwendung: COVID-19 Simulations,1
+14edeba1-1b0b-48f1-adad-d90aa62d4b57,Application,Anwendung: corona-gedenken.at,1
+74497781-aca7-4507-b46b-b19b6d2fb0d9,Application,Anwendung: Corona Dashboard Österreich,1
+c2f44f37-cf7c-4698-9d5b-7c10b7c9e0aa,Application,Anwendung: Covid-Inzidenz nach Bezirken in Österreich (Hexagon-Karte),1
+eb63d7ca-773a-4a37-a2f0-24b5f076e60f,Application,Anwendung: Percentage of Valid Covid Certificates,2
+d230c9e8-745a-4da3-a3b4-86842591d9f0,Dataset,Datensatz: COVID-19: Impfdaten auf Gemeindeebene (gültig bis 31.7.2022),3
+9a85caad-87ad-4705-8566-4b24405ae4c7,Application,Anwendung: medien-transparenz.at,1
+c3a8d866-408e-4042-893e-99710b4db683,Dataset,Datensatz: null,1
+384249a7-fe20-4d40-87e5-1f16fb7d472e,Application,Anwendung: Bim Bim,3
+93ccc0e9-9dc0-47f3-9b37-d524c7fd3be9,Application,Anwendung: Impfbot,1
+60ef4ee0-ff11-4833-9ac3-788d96bc6668,Application,Anwendung: Coronavirus in Austria,3
+098dbc00-6353-49d5-8a45-346cc4f04b4c,Application,Anwendung: All-in-One Reisesuchmaschine von EnterAnGo,2
+847d3111-3a22-4f99-a73c-75d1516ae493,Application,Anwendung: pandemieende.at,5
+61cde866-312e-4624-bd7c-e6820c609f2d,Dataset,Datensatz: COVID-19: Verabreichte Impfdosen nach demografischen Gruppen (gültig bis 31.7.2022),1
+b82e6ef3-ff25-475a-a71d-11f6448f9c8a,Application,Anwendung: Öffliner: Fahrplanauskunft für LINZ AG LINIEN,2
+96501b2c-5245-4f94-91b0-8121a63e5e14,Application,Anwendung: Current Corona Statistics,3
+06e149aa-8fc0-4ad0-bef5-b0ed949a44ec,Application,Anwendung: OGD Lab,4
+67d4a45f-2031-4dd5-a03d-92f64be7147c,Dataset,Datensatz: null,1
+25072a60-9126-428f-8b09-e0d604f42707,Application,Anwendung: WarpSpeed,1
+e1f4bcc0-c646-40ce-9b3f-482b8288d301,Application,Anwendung: Berufsinformationssystem des AMS Österreich (BIS),2
+bec16f39-2f2f-375a-aa6c-f122d15245d7,Dataset,Datensatz: Gliederung Österreichs in NUTS-Einheiten,1
+49ca9c40-10d2-41fa-a55e-7b516360ad94,Dataset,Datensatz: Berufsinformationssystem - BIS:  Berufe mit beruflichen Kompetenzen,1
+c2e2bfce-162b-466f-b33d-28d8241e13ce,Application,Anwendung: AVACT (Austrian Vaccination Age Case Trends),1
+fb402e2d-1e9e-4bdc-b269-c8a305bb5776,Application,Anwendung: Erdbebenvisualisierung,1
+9100472e-bf26-49e2-90df-64c436521157,Dataset,Datensatz: null,1
+f1ed7ee9-be77-4f6c-98ad-8a81b51b6404,Application,Anwendung: Lagekarte.info,1
+f2b1c584-4f3f-42c5-97c7-8cd44318d8b5,Application,Anwendung: Die Daten von data.gv.at,1
+20aeaca8-4033-4ad7-983d-67657209916c,Application,Anwendung: VCÖ-Check: Wo es zu viel Lärm und Abgase gibt,1
+ebe8d395-ce44-48a5-8833-14c5635543cf,Application,Anwendung: HydroGeo Wien,20
+9886476f-9c2f-46c8-bf37-06870d1e7338,Dataset,Datensatz: Legionslager Befestigungsanlagen Wien,1
+4f5a37d7-6055-40b6-9cdd-de55a9ab5248,Dataset,Datensatz: Stadtbefestigung 16.-19. Jahrhundert Wien,1
+88bf0348-80c8-4b62-a3d1-45a0cedb802d,Dataset,Datensatz: Mittelalterliche Stadtbefestigung Wien,1
+5ea10ba1-3577-407a-893b-175247a9bf4a,Dataset,Datensatz: null,2
+af63a0a0-0f6b-4534-92d3-63902fb91b03,Dataset,Datensatz: null,1
+98efb700-353d-49fb-bdca-0f7081b36140,Dataset,Datensatz: Hochwasser-Überflutungsflächen Wien,1
+c5e36bed-6c29-41bf-89e1-79ded8aae72d,Dataset,Datensatz: Wasserschutzgebiete und Wasserschongebiete Wien,1
+43839325-6125-4d5e-9fd7-d3e6ed6a2401,Dataset,Datensatz: Stadtplan3D Grundkarte Wien,2
+e57d4a00-fc78-4e48-a110-ae3951b5c031,Dataset,Datensatz: Luftbildplan 1976 Wien,1
+cef007c8-5836-47a4-b45a-60eb587db17e,Dataset,Datensatz: Luftbildplan 1992 Wien,2
+dfa46500-3e09-440b-81c5-77b77ca4f40a,Dataset,Datensatz: Orthofoto 2017 Wien,1
+a766b57e-aefd-41c7-957f-2de3c233d5b8,Dataset,Datensatz: Orthofoto 2020 Wien,1
+553aa803-fcc5-4526-86cd-2b693423427c,Application,Anwendung: mitradzurbahn,1
+56cadc3c-4ddf-46ba-b1b4-ea9f8e2760a9,Application,Anwendung: Corona-Ampel.org - Dashboard und lokaler Newsletter,3
+7b8cc09e-8558-431a-a3e4-203d32a8632e,Application,Anwendung: Justimmo - Die Maklersoftware,2
+8fb88a06-3a57-4ef3-9b62-9757646743a1,Application,Anwendung: LinzWiki.at,9
+49f0b668-2a32-475c-86f3-4068cf642519,Dataset,Datensatz: 5 und 4 Stern Beherbergungsbetriebe (Linz),1
+16bd245e-8f6c-4696-95f3-17be8fe340cb,Dataset,Datensatz: Volksschulen (Linz),1
+fc27bab4-34be-4562-8f77-67eac49e32c5,Dataset,Datensatz: Haltestellen der LINZ AG LINIEN 2015 (Linz),1
+0d469e6e-b960-4dc7-906c-15e258d1beee,Application,Anwendung: Visualisierung Wohnadressen auf Basis des Steinhausenplans von 1720,1
+de139cf2-a8d7-40fc-8a7c-da12e9944d48,Dataset,Datensatz: Steinhausen Plan 1710 Wien,1
+64695d02-b682-4c74-90d6-549baddba18b,Application,Anwendung: Welche Gesetzesinitiativen sind erfolgreich?,6
+8abc73bb-63b7-44c0-a25d-424ce38e5626,Dataset,Datensatz: Anträge (Parlament),1
+a6de427c-9d40-4e02-bfd1-9e372feb1de9,Dataset,Datensatz: Petitionen (Parlament),1
+9ca7f012-45c3-47f8-8648-e35e518583dd,Dataset,Datensatz: Bürgerinitiativen (Parlament),1
+3cfeefdc-d290-4d84-8abe-c7f1b042f418,Dataset,Datensatz: Gesetzesanträge des Bundesrats (Parlament),1
+58e0db32-8633-48d2-8d6c-0272ba2242ff,Dataset,Datensatz: Ausschussberichte (Parlament),1
+ba564a55-f352-4c80-8329-c1856622383f,Dataset,Datensatz: Regierungsvorlagen (Parlament),1
+8cdf30f2-84ab-4c8d-8d03-61f6243b398f,Application,Anwendung: Digi-Cycle,3
+7cbcdfa7-b7fd-4641-91c9-a6d67873b6a7,Dataset,Datensatz: Altstoffsammelzentren Standorte (Linz),1
+162398d4-b2ea-4674-83d4-2c1d851a521a,Dataset,Datensatz: Altstoffsammelstellen Standorte (Linz),1
+73b3ef29-f654-4288-b991-30457ff2a6da,Application,Anwendung: Inzidenz und Intensivbetten,2
+796e8f37-0037-4f69-bdb2-81f3f6e3d598,Application,Anwendung: Lilli - Linzer Linien: Routenplaner für Öffis der LINZ AG LINIEN,1
+9163929f-cbb7-4ab8-a395-12f6604aa926,Application,Anwendung: Mach mit!,1
+7723f849-230b-4871-9657-2bda9919d91a,Application,Anwendung: Spitäler Wien - Windows Phone App,1
+dd64355b-0ffe-4252-b8c9-b39b022f5d8b,Application,Anwendung: Vienna Events – iPhone App,1
+44dcfffe-80cb-4e0e-a02a-552b80eac33c,Application,Anwendung: Covid-19-Impfungen nach Altersgruppen im Zeitverlauf,1
+1bcb6def-9027-4e3a-abdc-e1a1f9e3cb53,Application,Anwendung: Real estate transactions in Vienna,1
+c307f89d-b01a-4da2-9f9e-cf3fd2dd651e,Dataset,Datensatz: null,2
+508bce23-2e67-4378-b37b-588e2ec57e28,Application,Anwendung: Fachglossar Österreichische Verwaltung,1
+fc52bf4c-af53-4896-8276-f778f221b20b,Dataset,Datensatz: Fachglossar Österreichische Verwaltung Deutsch-Englisch,1
+5c00e14a-9fa0-43b0-8b9a-6e91551ae2e4,Application,Anwendung: Österreichs Covid-19 Hilfsmaßnahmen - Tableau Visualisierung,1
+817af5ea-4b9a-4706-8953-9a122be0166b,Dataset,Datensatz: COVID-19 – Struktur und Umfang der finanziellen Hilfsmaßnahmen,2
+49878c29-0a92-4a7d-a668-8e7c2dbfbc79,Application,Anwendung: Medicus Online,1
+0f0b934c-c0ac-48f9-b35e-602c17b53bc9,Application,Anwendung: Empfehlungen für data.gv.at Datensätze,1
+1264176f-7c79-4352-85e0-e4b19c91aef4,Application,Anwendung: LostPetsVienna,1
+186e399b-a0b6-4cc8-a4bf-c846651b5aa0,Application,Anwendung: AMA Flächenauswertung,1
+da014105-3ac4-4eb9-982d-b89af002a53a,Application,Anwendung: PV*SOL premium,3
+e640951d-4179-44ed-a9cb-9e42169e9b48,Dataset,Datensatz: Solarpotentialkataster Wien,1
+28337e42-afe8-4ecc-92c3-2a955f1a4f4d,Application,Anwendung: FAIR Data Austria Database Repository,1
+a4686c70-aefd-4db5-8c4d-412e162722bc,Dataset,"Datensatz: Energiepreise Verkehr, real, brutto Österreich",1
+6b404f37-227d-4498-8712-7c7681f0d534,Application,Anwendung: Visualisierungen von Bevölkerungsstatistiken,2
+8b9c7679-fa9c-4d29-85fe-c85a934d79b4,Dataset,Datensatz: Geburten seit 2002 - Bezirke Wien,1
+526e6fdf-9159-4f68-9450-32d4162381ff,Dataset,Datensatz: Sterbefälle seit 2002 - Bezirke Wien,1
+ae7413c5-1ce0-4d6d-87c9-50b317723c45,Application,Anwendung: Gültige Impfzertifikate nach Gemeinden,2
+62380dd0-1d2b-4bf4-9bf7-47ba0125d84f,Application,Anwendung: Arbeitsmarktdaten Österreich,6
+CFE2FF7E9AD33C1EE053C630070AB101,Dataset,Datensatz: Arbeitslose und Schulungsteilnehmer_innen nach Geschlecht,1
+CFE25C2336D833E7E053C630070A709E,Dataset,Datensatz: Offene Stellen nach Berufen,1
+CFE2FF7E9AD53C1EE053C630070AB105,Dataset,"Datensatz: Unselbständig Beschäftigte, Arbeitslose, Arbeitslosenquote und offene Stellen - Jahresdurchschnittswerte ab 1946",1
+9a4e5d24-93db-3c4e-8e45-c4f291d59e55,Dataset,Datensatz: Gliederung Österreichs in Arbeitsmarktbezirke,1
+3174dad5-a408-36e8-b75e-af18d0969129,Dataset,Datensatz: Bevölkerungsstand zu Jahresbeginn 2021,1
+CFE2FF7E9AD43C1EE053C630070AB103,Dataset,Datensatz: Arbeitslose und Schulungsteilnehmer_innen nach Geschlecht - Lang-Zeitreihe ab 01/1987,1
+c262efdf-a46f-4d14-a9ba-abee05292c49,Application,Anwendung: MapColPal - your pal for cartographic color palettes,2
+701bb6a1-6e1e-4c38-8927-d66fc9c755ed,Application,Anwendung: Grenzstein-Datenbank Österreich (CATASTRUM),1
+3dff9c58-9a62-4ae4-a6cb-f0878e5605c2,Application,Anwendung: Covid-Vergleich 2020 zu 2021 Salzburg und Bezirk Hallein,2
+ae4f2ee3-e240-4ce0-b15e-8f180859a56e,Application,Anwendung: Lagekarte.online | ÖGEK,1
+c97b1453-8c31-4863-8e25-45739c398cb7,Application,Anwendung: jede-stimme.at,3
+f7cea2f0-6ff3-455b-8587-f2eb2e77d7ce,Application,Anwendung: Kappazunder Kennenlernen,1
+4a2203cb-ed49-4e51-8f41-0bdfd821e9c3,Dataset,Datensatz: Kappazunder Testdatensatz 2020 Wien,2
+10439fe0-9da1-4671-b542-749efccfe06d,Application,Anwendung: StadtKatalog.org,2
+06a1ab93-3b41-4563-ae6e-fe9f4c971e3b,Application,Anwendung: Klimadashboard,1
+78bd7b69-c1a7-456b-8698-fac3b24f7aa5,Dataset,Datensatz: Treibhausgas-Emissionen nach CRF,1
+e469f23c-49f5-4fb7-ab6c-74b39c728a35,Application,Anwendung: Wie verändert sich die Zusammensetzung des Nationalrats?,1
+5d5214cc-9667-4132-8f23-9b0cf842cee6,Dataset,Datensatz: Parlamentarier:innen seit 1918 (Parlament),2
+08c45a46-4440-4230-af33-778dfc0dd9db,Application,Anwendung: Corona Dashboard,1
+6cb3abed-6c76-47f2-bf40-2ddbea78cb35,Dataset,Datensatz: SARI-Krankenhausaufnahmen: Fokus Patient:innen,1
+0378ddff-be95-4e34-a74f-1963ba6e85a1,Application,Anwendung: wl-transit,1
+9b8ceddd-7149-4341-a77f-039536538313,Application,Anwendung: Raspberry Pi Dashboard,1
+4068e7ab-00c7-4b3f-9356-6c270ed4eedd,Application,Anwendung: Allryder,2
+665de072-9b9e-428d-aa71-00107b6296fd,Application,Anwendung: Aquarinthia -Alexa Skill,1
+23405b07-6f25-4367-aca5-e8e12d4cd49d,Application,Anwendung: vivent.at,1
+016f31a2-a5ec-4327-909f-b145102a2cf6,Application,Anwendung: CCD-Guide,1
+e04221bc-7309-48b8-bffd-77655c626b8d,Dataset,Datensatz: Sonnenstandsanalyse Österreich,1
+90359ef4-d9bc-4421-a963-b2cfc23d5971,Application,Anwendung: Shadowmap – your interface to the Sun,1
+370acbec-18ac-467d-ad00-fcbeffc870a8,Application,Anwendung: weather.bzed.org,1
+a3256c2b-0010-45f3-b8f4-0130bdb75db2,Application,Anwendung: WoParkeIch,3
+b984047a-3e8d-4ae5-969c-969c51cdd380,Application,Anwendung: COVID-19 Dashboard Österreich,4
+7ad20143-d96b-4176-8baf-ecbc60197e0a,Application,Anwendung: Wasser in Wien,5
+067f74a5-9460-40d7-842a-2450cb66755c,Application,Anwendung: Geförderte Neubau- & Sanierungsprojekte in Wien,1
+e6a02c67-f1bb-40f0-8803-a8939e286564,Application,Anwendung: Analyse der Toten und das Verhältnis zu Covid,2
+cb0d08b6-cfab-45d2-b8e2-6174d4ae0a05,Application,Anwendung: Interaktive Grafiken: COVID-19 – Struktur und Umfang der finanziellen Hilfsmaßnahmen,1
+4e1338fd-27b8-4561-9510-87bbd6a02bfd,Application,Anwendung: ParkSheriff - Handy Parken,2
+ede03db1-b4bf-412b-8a97-a24911cea24e,Application,Anwendung: Animierte Landkarte der Wahlergebnisse der NRW 17/19,2
+39591423-6c84-45d8-b198-1ea29551158c,Application,Anwendung: optimize-png-mbtiles,1
+703fce40-6116-4836-aca4-7dddc33912ab,Dataset,Datensatz: basemap.at Verwaltungskarte Raster Offline Österreich,1
+72cf1e12-9102-45f9-9de9-9f2e1c64957b,Application,Anwendung: WMTS Höhenmodell Österreich 10m,1
+bf4e12ec-37e0-4dfa-872d-95a37fc6fe34,Application,Anwendung: Wird Redezeit gleich auf Männer und Frauen verteilt?,2
+285022f8-59c5-4462-9417-c35f350a52d4,Dataset,Datensatz: Plenarsitzungen (Parlament),1
+7b7b75bf-36a8-4964-8054-d624ad3bbe80,Application,Anwendung: Stadtplan3D,7
+bcba4f91-27b7-4950-90a7-cecee4617a8b,Dataset,Datensatz: Orthofoto 2022 Wien,2
+2aada6af-9aaa-42ae-98f2-8d974b278280,Dataset,Datensatz: Schrägluftbilder 2020 Wien,1
+7dfbe42e-363b-46f8-83a3-993d778add73,Application,Anwendung: Auskunftsbegehren Adressdatenbank,1
+3eaf6811-dc6e-439f-a9dc-20f96e9fa5d4,Application,Anwendung: GesetzeFinden.at,1
+79410523-0481-450f-9713-5454c4a91bd0,Application,Anwendung: webKappa - Kappazunder Web Viewer,2
+9586a616-48e4-46c8-b418-1432f2515407,Dataset,Datensatz: Kappazunder Befahrungsdaten 2020 Wien,2
+e73d8f37-89fb-4a19-a6e9-55f612a441ca,Application,Anwendung: hafla - Stadt entdecken,2
+7f8e5d50-1815-4393-a1cb-c360e5536672,Application,Anwendung: Uhrschnell,1
+43f7f419-9a70-4e61-bc1c-47d81e2afcde,Application,Anwendung: tesseyla map,1
+bd836e2c-70ac-44cc-8240-e93aa8ea676c,Application,Anwendung: Echtzeitdaten von Öffis via MQTT & ESP32 XIAO & OpenDATA,1
+f7baf002-9cac-4345-9186-034aec5e66b6,Application,Anwendung: LaMetric Abfahrtsmonitor,1
+a40e6b56-e37b-414a-9e61-e28f70888c50,Application,Anwendung: flyforfun.at,1
+bad388c1-e13f-484d-ba51-331a79537f5f,Dataset,Datensatz: Meteorologische_Daten_Land_Salzburg,1
+cbc409f8-b88d-4068-bd2b-90863d283aa9,Application,Anwendung: oesterreich.gv.at/Digitales Amt,1
+663d442e-d2b8-4808-810b-ae7bb3a92538,Application,Anwendung: Wiener-Mietenrechner,16
+4b2261f6-d431-4e3a-9537-56a670ac80b9,Dataset,Datensatz: null,1
+eab5ce18-827f-44a8-a206-e56f772dfa8b,Dataset,Datensatz: null,1
+845a19d8-b6d7-430d-8ff3-a1e499c9ac5e,Dataset,Datensatz: null,1
+35102370-ad3b-41e5-a5c3-567750be2711,Dataset,Datensatz: null,1
+705a21fd-e60c-4b01-a1bf-4a07caafc28e,Application,Anwendung: dort! wien,7
+a07f96f6-56f5-47d9-96d3-3c5dfb1cb311,Application,Anwendung: Public Toilets in Vienna,2
+77197743-2ceb-44f0-814e-a48803d8c447,Application,Anwendung: ePaper/eInk Lawinenlagebericht Visualisierung,3
+b04b81d6-eba4-4ec3-b35d-130df9fd716b,Dataset,Datensatz: Lawinen-Probleme icons Tirol,1
+c6d918f0-deb2-4abc-91aa-c94af5d12af1,Application,Anwendung: Snow Maps 3D,3
+28c9e877-36e7-4ced-896e-6bead8f9e190,Dataset,Datensatz: Liftanlagen Land Salzburg,1
+e527be89-5193-43b2-8388-1f7feee2f8fd,Dataset,Datensatz: Aufstiegshilfen in Tirol,1
+294de677-b02d-4a74-b189-cc04fa820d96,Dataset,Datensatz: Schipisten Land Salzburg,1
+941c3eba-bf08-4f32-afd8-5f26d04de6cb,Application,Anwendung: Wiki Loves Earth,2
+8ab79cf0-3549-11e2-81c1-0800200c9a66,Dataset,Datensatz: Geschützte Landschaftsteile Steiermark,1
+df8824f0-3555-11e2-81c1-0800200c9a66,Dataset,Datensatz: Naturdenkmäler Steiermark,1
+b2469863-36cd-487d-b240-374a36f6431f,Application,Anwendung: Feinstaub Graz,1
+58a2e0c0-1cf9-11e2-892e-0800200c9a66,Dataset,Datensatz: Luftgütedaten Steiermark,2
+0dd50d81-c7fb-4b3e-8228-98c7cff26578,Application,Anwendung: Accessible Vienna,2
+2f6e2695-6b1b-4d94-8033-3f25769c2f5b,Application,Anwendung: Feuerwehreinsatz.info,3
+da54b586-c25d-44b8-a786-c1d31e4b5cb2,Dataset,Datensatz: Intermodales Verkehrsreferenzsystem (GIP.at) KM-Tafeln Landesstraßen Land Salzburg,1
+f5503566-7395-495f-91ff-543a1c0efb39,Application,Anwendung: Feinstaub Graz,1
+481dbd11-33a6-4dcd-950b-ccde56e9f079,Application,Anwendung: Mountain peaks comparison,1
+359c515c-4320-42ef-b4e5-88ba1bb03c2e,Dataset,Datensatz: Gipfel Land Salzburg,1
+872ed73b-9081-4095-9d09-6e3b22e2d90a,Application,Anwendung: Spitalsmappe,8
+b0408646-3c6a-490e-aee4-b61a1824f9b8,Dataset,Datensatz: Seniorenpflegeheime Land Salzburg,1
+a000f9a9-e053-4b27-8836-239181d0a3a5,Dataset,Datensatz: SeniorInnen- und Pflegeheime Graz,1
+573060f0-80c8-4141-b355-80ebd94ef87a,Dataset,Datensatz: null,1
+26f1dc2d-d482-4901-8191-18477bc370cd,Application,Anwendung: Bing Maps,2
+1eda4b16-05e3-43c3-b5b0-ef8276df0701,Dataset,Datensatz: Geländemodell Raster Wien,1
+05f867d2-16ea-4268-bcdd-b8612bf3d920,Application,Anwendung: Standortanalyse zur Standortsuche in Wien,12
+029b31b2-c3b9-4a7b-8e03-c58a2b4da4b7,Dataset,Datensatz: null,1
+01c75c37-8c12-486a-a1c3-b053707b0a84,Application,Anwendung: Cherry Blossom Map - Wo finde ich japanische Kirschblütenbäume?,3
+df4cc7ae-ead7-49aa-bcb8-b018f169162d,Dataset,Datensatz: Städtischer Baumkataster,1
+38a2c8ec-b087-4d49-be33-e940387894a1,Application,Anwendung: Benvenuti a Vienna,2
+2e0129ab-c9bd-4679-a987-30fd5008472a,Dataset,Datensatz: Mehrzweckkarte Rasterdaten Wien,1
+4f3a3866-c358-49af-b777-306ebb108622,Application,Anwendung: Rainbow Road,2
+53a67085-0330-48e7-95bf-f65ac221633d,Application,Anwendung: Webarchiv API Tutorials,7
+8a5d8ef3-9e77-4d43-8828-aa92436caac0,Dataset,"Datensatz: Datengrundlage der Webarchiv-Kollektion ""Laufende Crawls""",1
+d75798ec-b601-4961-9b06-1c24faaab294,Dataset,Datensatz: Alle Domainnamen mit Bezug zu Österreich seit 2009,1
+94f10c98-be6b-4e38-b841-f7615ab019be,Dataset,"Datensatz: Datengrundlage der Webarchiv-Kollektion ""Event Crawls""",1
+1f4219b8-591c-43c8-9f87-f1c26a836eff,Dataset,Datensatz: Links zu anderen anderen queryfähigen Webarchiven,1
+9df9bbdc-5ea8-4d5e-8fd9-b80a47f64630,Dataset,Datensatz: Anzahl aktueller Objekte im Webarchiv,1
+0f6870c8-d9a0-4dcf-9d67-4fb0d75f0e35,Dataset,Datensatz: Monatsstatistik des Webarchivs seit Beginn,1
+4c99b422-66b8-41bd-9d82-6593694d2878,Dataset,Datensatz: URLs der Impressen von ausgewählten Medienseiten,1
+24d2e0f6-b8fe-4622-99ef-266c499763a2,Application,Anwendung: Hydro - Aquatic Data Hub,1
+da464e01-7b63-4f70-a452-30c2473ab4fc,Application,Anwendung: PTV-Pathfinder,2
+bf985596-6a73-4196-b49e-10eb319c18c9,Application,Anwendung: TiroLernApp,1
+055df4ba-6fa6-40f0-b681-49b26d9af313,Application,Anwendung: Drupal Modul - Open Data Vienna,6
+443ca540-5cb3-47f9-821f-6a7e25ae01af,Application,Anwendung: Austro Control – Spatial Data Infrastructure (SDI),1
+1d6e8d13-4d34-4350-baf8-9102f080ff42,Application,Anwendung: Smart Water City,1
+52d00717-4d35-46ba-9f55-6d24c61bce3f,Application,Anwendung: ÖRAG Immobiliensuche,12
+3191356b-d258-46b8-b12d-32e37dd77d96,Application,Anwendung: Familiengesundheit,11
+a711af5f-9b21-44f1-bfbc-5332358c49dd,Application,Anwendung: Steine der Erinnerung - Übersichtskarte und Datenbank,1
+995427af-22e9-48fc-b71a-a9472630a31c,Application,Anwendung: CSH Health Care Info Point,2
+40f06d3e-a143-48f4-b386-a98891a0554a,Application,"Anwendung: Corona aktuell Osttirol inkl. Grafiken, Ampel und Impfdashboard Österreich",6
+6d11d490-fc43-4377-bbbe-37e670632801,Application,Anwendung: Dashboard zur Corona-Schutzimpfung des BMSGPK,1
+8b933cd6-3590-4709-a8db-35a29c0774ab,Application,Anwendung: Open Pins Vienna,41
+08da3f3b-9cb5-4993-a265-43e486ec8583,Application,Anwendung: Flano,1
+f65bb18c-ceeb-44aa-ab78-0efd7ee58303,Application,Anwendung: Blühendes Österreich,1
+db555b35-5dd2-4b34-8d7a-908afb93dfad,Application,Anwendung: standortkompass.at - die Webplattform für Betriebsansiedlungen in NÖ,2
+6faf9b88-9ce8-4cff-975b-ec3160773921,Application,Anwendung: Toilet Map Vienna - Augmented Reality App,2
+5090db44-e1c4-49b8-9805-29828b821239,Application,Anwendung: Haus und Hof - Hausgeschichte Digital,2
+f741adce-a789-4e7e-93a8-f80bd3ffe2bf,Application,Anwendung: Historischer Moorkataster 1911 - Story map,1
+ea26a2de-5d6b-4a2d-ba1f-4956f0ff8a40,Dataset,Datensatz: Historischer Moorkataster 1911 Österreich (Vektor),1
+2b7363be-d8ec-4cd8-a969-de84ea16ee5d,Application,Anwendung: InTime Linz,3
+48910881-1251-4f69-aa65-7d6acadfd2e1,Application,Anwendung: Vienna Location Service,24
+ae8cf9cd-84be-425a-9715-c0f2de16f2bc,Application,Anwendung: H2K – Das Kärntner Wasser-App,2
+fb7b90f7-6908-48f3-aec2-e6fa430e28a5,Application,Anwendung: Zone Graz,2
+7fe41d3c-1154-490e-b878-2d41df39b9bf,Application,Anwendung: Digital Salzburg,7
+a5841caf-afe2-4f98-bb68-bd4899e8c9cb,Dataset,Datensatz: Museen Land Salzburg,1
+9087fe9a-1dd4-49a1-98b4-8a8c659eb64f,Dataset,Datensatz: null,1
+4b901b6b-f131-49f7-ba8b-2e3b7bfd4ea6,Dataset,Datensatz: null,1
+cfb7d12a-0942-468a-9fdd-0399029e196f,Dataset,Datensatz: Standorte der Bewohnerservicestellen der Stadt Salzburg,1
+3aa31f0e-b807-45fe-88ab-209e006f1c78,Dataset,Datensatz: null,1
+a2aacf9c-c06b-49ac-b196-0eb22fbc6e84,Dataset,Datensatz: null,1
+6f422a00-9e0e-413e-ada3-df9b6d313f0b,Application,"Anwendung: Daham in Wien, interaktiver Atlas von Wien",12
+09e70f89-cadf-4a3b-a29a-2b3f3c6cbd71,Dataset,Datensatz: Registerzählung (4) - Wohnungen - Zählbezirke Wien,1
+28185052-3df4-46ae-8c97-8b47221c6487,Dataset,Datensatz: Registerzählung (3) - Gebäude - Zählbezirke  Wien,1
+827fb7fd-09ac-4c5f-a241-4cc35cc09366,Dataset,Datensatz: null,1
+2e9f926c-f688-4889-856d-5e6935440c28,Dataset,Datensatz: Radverkehrszählungen Wien,1
+3828fd26-5284-444b-ba25-a68a84e91bdf,Dataset,Datensatz: Pkw-Bestand nach Kilowatt Leistung seit 2011 - Bezirke Wien,1
+a9c194f6-5df5-4f7d-9e43-b0dcf62ac8e1,Dataset,Datensatz: Pkw-Bestand nach Automarken seit 2011 - Bezirke Wien,1
+ce8fd77e-b6bf-472d-96d6-dd01b69a043b,Application,Anwendung: Raspberry Pi Real-Time Public Transport Departure Monitor,1
+6b28419c-7348-4697-9118-29e88c15add8,Application,Anwendung: wien.linien.info,1
+101c1f33-344e-4458-82c9-f8a00a83ae0a,Application,Anwendung: Visualisierung der Grazer Bevölkerungsentwicklung,2
+4d519b42-72fe-4059-837a-560c6083542e,Dataset,Datensatz: die Grazer Bevölkerung nach Bezirk und Staatsangehörigkeit,1
+4f18ca71-38e9-4d55-9064-bc5085a50608,Dataset,Datensatz: Verwaltungsgrenzen Graz,1
+f7b4651c-0d1d-4be8-ac45-e72b2565611e,Application,Anwendung: Kurzparkzonen Wien,2
+5c3ada09-1b54-451e-9421-46efa6cd8598,Application,Anwendung: Helios - Entdecke Kunst in Wien,1
+e8058b79-fd9a-4277-a4cf-0ff42b60f468,Application,Anwendung: Willi - Wiener Linien,2
+7b3f2f27-6888-4cef-8d7d-655546f61a0e,Application,Anwendung: Wanderwege Wien,1
+783269e6-dc69-4c6a-8299-38f5a0324181,Application,Anwendung: CityMaking.Wien,5
+946a1d1c-27ea-49d4-93be-9ac68b399a20,Dataset,Datensatz: null,1
+fdba9f4f-4685-4068-8cc6-edf2ce741c1e,Application,Anwendung: GeoTraining,1
+b94c2bad-4e71-463c-be9b-22fae246872b,Application,Anwendung: TRAVIC,1
+b404f963-b931-4baa-b373-4aa0f28ab714,Application,Anwendung: moovel,1
+18347157-d60d-46e2-9b59-2b31fa26d321,Application,Anwendung: Wann - Deine Abfahrten. Sofort.,3
+b8f8b52f-3216-4ba4-b07f-21edd85760a8,Application,Anwendung: Wann Today,5
+410b3c8e-bae6-40b4-9372-65b22a28338d,Application,Anwendung: linz fährt,3
+0c80a2e5-1721-49db-8620-71ea18f3ee21,Application,Anwendung: Lingeo - Linzer GEO Datenbank,14
+3cca23c2-2aa6-4421-96db-8b914de62d56,Dataset,Datensatz: Linztermine - Orte (Linz),1
+fa02a3b3-deaf-49c2-8276-ed0393e61574,Dataset,Datensatz: Kindergärten - Standorte (Linz),1
+10ca6601-fb78-49ab-8a2f-0fbaa9cbb0a1,Application,Anwendung: Fruchtfliege – Obstbäume auf öffentlichem Grund,1
+8f47d706-6610-4857-aae8-64889e0ce2b8,Application,Anwendung: POIRadar,3
+ace85cf3-641e-4250-a361-0077249becbd,Application,Anwendung: Up Down Vienna,1
+997fe719-6d22-45a2-9c9e-06ac43201e17,Application,Anwendung: Prediodata,1
+0aedeed6-a8bb-4a8d-87e2-541d0e54c971,Application,Anwendung: Inside Cities - VR Urban Analysis,7
+1ea3d3e8-fa07-4c37-af68-eb588d439de2,Dataset,Datensatz: Hauptradverkehrsnetz Wien,1
+6bda7663-12a4-48d1-adba-c94b2f2187b4,Application,Anwendung: RTR Netztest,5
+5c74388f-200b-3deb-9043-eeb1e7d7b53a,Dataset,Datensatz: Dauersiedlungsraum,1
+7b193453-168d-4780-919f-a0f5abee5e40,Application,Anwendung: Verkehrsinformationen Niederösterreich / Wien,1
+b9cc46c2-7e73-4784-b2fe-c31ebed7eb60,Application,Anwendung: Lebendige Stadtteilkarte Neu Leopoldau,15
+93e654a2-8748-4f29-8483-ab37a1322255,Application,Anwendung: Erich Neuwirths COVID-19-Analysen,5
+7dba082e-96e0-4816-8d85-964b27777446,Application,Anwendung: IHS Economic High Frequency Monitor,2
+aee4c9b5-8c7f-4248-b909-3335d93ac08a,Dataset,Datensatz: Aktuelle Arbeitsmarktdaten 2020,1
+ad122534-f82a-438b-835e-d1fb1341bff7,Dataset,Datensatz: AMIS Datenbank,1
+f8097a9b-2cca-441e-a13a-273209fbdadd,Application,Anwendung: Coronavirus COVID-19 Fälle in Österreich,1
+c3df5a27-ec37-45ac-93f5-6d0b7bee198c,Application,Anwendung: CorIn.at - CoronaInfo-Austria,1
+54ac427d-fb9e-43c7-a358-097165c50867,Application,Anwendung: Corona Ampel des Complexity Science Hub Vienna,1
+13cc3b30-f836-492b-bd18-43550dfa1edc,Application,Anwendung: THANADOS - The Anthropological and Archaeological Database of Sepultures,2
+37c4a13b-0026-4876-9f96-d41d6c870b67,Dataset,Datensatz: Schummerung GELAENDE Österreich,1
+9c3653ec-e480-4628-b9c5-8e778e200bac,Application,Anwendung: Scriptable Vaccination Stats Widget,2
+170c2018-83e7-4809-9d0f-f25cca28cb93,Application,Anwendung: Wien POIs,37
+e16f6e6c-cf91-4279-a51c-0eaadb8858c4,Application,Anwendung: CovidLux,5
+96ac85b2-39ad-4802-be5e-a36a442a109c,Application,Anwendung: Checkmyplace.com,1
+58b89253-d767-4ef0-9ec4-26403875503d,Application,Anwendung: CED-ATLAS Darmplus,2
+666ba7e1-c561-47d9-8196-6b5a8a1eec24,Application,Anwendung: Orbis-City-Map,1
+fe42f1f3-c1b6-4334-aff5-3198ee527cdd,Application,Anwendung: Estimation of exogenous drivers to predict COVID-19 pandemic using a method from nonlinear control theory,1
+6f9950a7-7c0e-4c71-b01f-bc0b8687b65b,Application,Anwendung: Stadtwandern Wien,1
+3eef9b37-8c96-4f45-866a-4e5005c2b7ff,Application,Anwendung: COVID-19 Dashboard - Land Tirol,1
+871224fc-330b-4e06-bea0-8daebb5b4b10,Application,Anwendung: EO-WIDGET AgriApp (OGD Austria),3
+fa18db4f-a880-452b-bcbf-e4c0a88cb5d5,Dataset,Datensatz: INVEKOS Schläge Österreich 2021,1
+35e36014-ec69-439b-8629-389f52ffaa92,Dataset,Datensatz: INVEKOS Schläge Österreich 2020,1
+baee6416-544a-4bfd-9aa3-8b417b39c1b7,Application,Anwendung: RIS Reader,1
+c36ccb34-0056-465d-9c56-c70bd08b3be8,Application,Anwendung: Spritpreise AT: Clever Tanken,1
+56f9f78e-a51a-4990-aebd-082aebfb0fe7,Dataset,"Datensatz: Energiepreise privater Haushalte, real, brutto Österreich",1
+bc52a248-d015-4293-a4ac-e8decbcb1fc1,Application,Anwendung: Stadt Wien-App,56
+54e495ec-e203-4c06-8707-36128dd22c50,Dataset,Datensatz: null,2
+ce6baef9-42a8-4c09-8d50-99be6ac4ca9e,Dataset,Datensatz: null,2
+332f78a2-d9b5-4e62-898f-ecd813e2482d,Application,Anwendung: Opendata Buddy: die Magie von KI zum Finden offener Datensätze nutzen,1
+a4c09786-fcec-4c42-9ceb-e7a4b03c8703,Application,Anwendung: Frey-tag.at,1
+3d76af33-8ee6-41b2-9003-7d4a051ff36f,Application,Anwendung: Auswertungen der Open Data Datensätze zum Bundesbudget 2024,1
+c327c54d-4e61-4334-bf8b-8d73113523a3,Dataset,Datensatz: Bundesbudget – Verzeichnis veranschlagter Konten 2024,1
+a6aed657-82f9-478a-ba2f-470dcb442eca,Application,Anwendung: Blickwinkel 2040,2
+07ba3b74-3c40-4a36-838a-7ef4ced23546,Dataset,Datensatz: Klimaanalysekarte Wien,1
+aae243bd-796f-46d6-86ab-4d7b403f15a8,Dataset,Datensatz: Nächtliche Kaltluft Wien,1
+63bc4638-11fd-4afc-8743-5219e916a5ee,Application,Anwendung: Pointly's City Inventory Classifier - 3D Point Cloud,1
+566c8d52-b6f8-48b9-921e-856ba5be392d,Dataset,Datensatz: Kappazunder Laserscanbereiche 2020 Wien,1
+5eec5f0c-eabd-42c1-9060-01267ab80cd8,Application,Anwendung: Asyl Recht Navigator,1
+4979e539-bfea-42b0-8f59-224fe4869ca0,Application,Anwendung: Leitungsauskunft.at,1
+7cb3fb29-6b14-477b-a88b-a6a526b59b40,Dataset,Datensatz: Orthofoto Offline Österreich,1
+1e4d72e3-40b9-4aa5-97d5-240b5a19d10c,Application,Anwendung: Breitbandatlas,4
+19b8d43f-4666-4a8c-98ef-c059fff9f192,Dataset,Datensatz: INVEKOS Feldstücke Österreich 2019,1
+588b9fdc-d2dd-4628-b186-f7b974065d40,Dataset,Datensatz: Breitbandatlas,1
+24e76a52-2856-4c06-884b-e4290b523efe,Application,Anwendung: Atlas Art by CraftYourMap,1
+48b53554-3fa8-4e9a-84e3-4276a11fe894,Application,Anwendung: Detekt,1
+de7fd69e-643f-40ed-8289-69c80985a446,Application,Anwendung: Gem2Go Die Gemeinde Info und Service App,7
+2eb011e4-e899-4eee-885d-4b9da665033c,Dataset,Datensatz: Behördenverzeichnis,2
+bf023a75-c99b-42ec-88fd-69cb9b7930e5,Application,Anwendung: FlexLex,1
+eaa007ab-b9d9-43f9-946b-574b5a7825ed,Application,Anwendung: GEM2GO WEB,2
+841c434e-fb42-4846-bf2e-5ba147c21ad4,Application,Anwendung: Wiener Linien ESP32-S3 Public Transport Departure Monitor,1
+27f534d7-29f9-427d-9e27-fa99d24c986c,Application,Anwendung: Cooles Wien,6
+f98392ef-05fd-4d48-b5a9-7cdfc54f06b6,Application,Anwendung: Wo und wann waren welche Namen populär?,1
+603066f6-0f0a-3806-b394-f14b7d2cb437,Dataset,Datensatz: Vornamen,1
+b6ff0aaa-adcf-4cef-898f-9403dac49713,Application,Anwendung: WienBot - Digitaler Assistent der Stadt Wien,56
+8ad7dacd-b977-4ead-b6c2-19c030ec5964,Application,Anwendung: Entdecke DNAustria,1
+37fa9330-73a3-451d-a56f-b8d885ea8420,Application,Anwendung: Deermapper - Digitale Jagdverwaltung,1
+ed3b5362-b115-4074-8f35-8122f42bbb88,Application,Anwendung: ivie -  Wien City Guide,5
+787bab96-dc54-416b-8b4a-802758cb477e,Application,Anwendung: Findaloo - öffentliche Toiletten finden,1
+c9cf146a-0014-49e1-bbf2-84b6386fa687,Application,Anwendung: Rundumadum - Android App,2
+e12fe750-b939-448b-85a3-536ae8e58192,Application,Anwendung: Energy Ahead,2
