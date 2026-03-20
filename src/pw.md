@@ -82,14 +82,15 @@ simulation.on("tick", () => {
     .attr("cy", d => d.y)
 })
 
-const adjacency = new Map()
+// Adjacency map for efficient calcs
+
+const adjacency = new Map() 
 
 nodes.forEach(n => adjacency.set(n.id, new Set()))
 
 links.forEach(l => {
   const s = typeof l.source === "object" ? l.source.id : l.source
   const t = typeof l.target === "object" ? l.target.id : l.target
-
   adjacency.get(s).add(t)
   adjacency.get(t).add(s)
 })
@@ -97,43 +98,47 @@ links.forEach(l => {
 const degree = new Map([...adjacency].map(([id,set]) => [id,set.size]))
 
 
+// Highlight/Reset helper functions
+
 let clicked = null;
 
 function highlight(d) {
-  const neighbors = adjacency.get(d.id) || new Set();
+  const neighbours = adjacency.get(d.id) || new Set();  // get all direct neighbours from adjacency map
   node.attr("opacity", n =>
-    n.id === d.id || neighbors.has(n.id) ? 1 : 0.1
+    n.id === d.id || neighbours.has(n.id) ? 1 : 0.1  // set opacity of the node and its neighbours to 1; all others to 0.1
   );
   link
     .attr("opacity", l =>
-      l.source.id === d.id || l.target.id === d.id ? 1 : 0.2
+      l.source.id === d.id || l.target.id === d.id ? 1 : 0.2  // set opacity of links connected to node to 1; all others 0.2
     )
     .attr("stroke-width", l =>
-      l.source.id === d.id || l.target.id === d.id ? 2 : 1
+      l.source.id === d.id || l.target.id === d.id ? 2 : 1  // same for link stroke width
     );
 }
 
 function reset() {
-  node.attr("opacity", 1);
-  link.attr("opacity", 1).attr("stroke-width", 1);
+  node.attr("opacity", 1);  // reset node opacity
+  link.attr("opacity", 1).attr("stroke-width", 1);  // reset link opacity and stroke width
 }
 
+// Event functions
+
 function mouseover(event, d) {
-  if (clicked) return;
-  highlight(d);
+  if (clicked) return;  // do nothing if a node is clicked
+  highlight(d);  // otherwise highlight correct nodes
 }
 
 function mouseout(event, d) {
-  if (clicked) return;
-  reset();
+  if (clicked) return;  // do nothing if a node is clicked
+  reset();  // otherwise reset graph view
 }
 
 function click(event, d) {
-  if (clicked && clicked.id === d.id) {
+  if (clicked && clicked.id === d.id) {  // if a node is clicked twice -> reset graph view
     clicked = null;
-    reset();
-  } else {
-    clicked = d;
+    reset();  
+  } else {  // if no node is clicked -> highlight correct nodes
+    clicked = d;  // assign clicked to deactivate mouseover/mouseout
     highlight(d);
   }
 }
@@ -141,7 +146,7 @@ function click(event, d) {
 display(svg.node())
 ```
 
-<!-- Simple Mouseover/Mouseout functions
+<!-- Simple Mouseover/Mouseout functions (not possible with click?)
 function mouseover(event, d) {  // on mouseover
   node.attr("opacity", function(n) {  // set opacity of
     return (n === d ||  // the hovered node
@@ -163,6 +168,7 @@ function mouseout(event, d) {  // on mouseout
 -->
 
 
+<!-- Update cell to avoid reloading graph (also use adjacency map?) -->
 ```js
 const visibleDatasets = new Set();
 const visibleNodes = new Set();
@@ -178,7 +184,6 @@ nodes.forEach(n => {
 links.forEach(l => {
   const s = typeof l.source === "object" ? l.source.id : l.source;
   const t = typeof l.target === "object" ? l.target.id : l.target;
-
   if (visibleDatasets.has(s) || visibleDatasets.has(t)) {
     visibleNodes.add(s);
     visibleNodes.add(t);
