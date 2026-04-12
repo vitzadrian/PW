@@ -5,10 +5,14 @@ sql:
     formattedLinks: ./data/formattedLinks.csv
 ---
 
-<!-- Data Loading / Display -->
+<!-- Data Loading / Tables -->
 
 ```sql id=Nodes display
-SELECT id, title, "group", connections
+SELECT 
+  id, 
+  REPLACE(REPLACE(title, 'Datensatz: ', 'Dataset: '), 'Anwendung: ', 'Application: ') AS title, -- translate title prefixes
+  "group", 
+  connections
 FROM formattedNodes
 ```
 
@@ -49,6 +53,13 @@ const svg = d3.create("svg")
   .style("max-width", "100%")
   .style("height", "auto")
 
+// Reset graph on background click
+svg.on("click", function(event) {
+  if (event.target === this) {  // only fire if the click was on the SVG background, not a node
+    reset();
+  }
+});
+
 const link = svg.append("g")
   .attr("stroke", "#999")
   .attr("stroke-opacity", 0.6)
@@ -66,7 +77,8 @@ const node = svg.append("g")
   .join("circle")
   .attr("r", d => radiusScale(d.connections))
   .attr("fill", d => color(d.group))
-    .on("mouseover", mouseover)  // event handlers
+    // event handlers
+    .on("mouseover", mouseover)  
     .on("mouseout", mouseout)
     .on("click", click)
 
@@ -79,7 +91,7 @@ const simulation = d3.forceSimulation(nodes)
   .force("x", d3.forceX().strength(0.1))
   .force("y", d3.forceY().strength(0.15))
   .force("collide", d3.forceCollide(d => radiusScale(d.connections) + 1))
-  .alphaDecay(0.03)
+  .alphaDecay(0.03)  // stabilize the simulation quickly, but accurately
 
 simulation.on("tick", () => {
   link
@@ -94,7 +106,7 @@ simulation.on("tick", () => {
 
 // Adjacency map for efficient calcs
 const adjacency = new Map() 
-const getId = x => typeof x === "object" ? x.id : x;  // ID helper (also used in update cell)
+const getId = x => typeof x === "object" ? x.id : x;  // ID helper (also used in other cells)
 
 nodes.forEach(n => adjacency.set(n.id, new Set()))
 
@@ -105,9 +117,16 @@ links.forEach(l => {
   adjacency.get(t).add(s)
 })
 
+// If an application node is clicked, we want to display all neighbouring dataset nodes,
+// even if they have less connections than minConnections, but clicking them breaks the graph.
+// We want to avoid graph reloading, but cannot reassign external variables in Observable. 
+// Mutating an external property like clickThreshold.state however is allowed.
+const clickThreshold = { state: 1 };
 
 // Highlight/Reset helper functions
 let clicked = null;
+let clickedNode = Mutable(null);  // mutable to avoid graph reloading in update cell
+let nodeById = new Map(nodes.map(n => [n.id, n]));
 
 function highlight(d) {
   const neighbours = adjacency.get(d.id) || new Set();  // get all direct neighbours from adjacency map
@@ -119,7 +138,7 @@ function highlight(d) {
       l.source.id === d.id || l.target.id === d.id ? 1 : 0.2  // set opacity of links connected to node to 1; all others 0.2
     )
     .attr("stroke-width", l =>
-      l.source.id === d.id || l.target.id === d.id ? 2 : 1  // same for link stroke width
+      l.source.id === d.id || l.target.id === d.id ? 2 : 1  // similar for link stroke width
     );
 }
 
@@ -127,6 +146,7 @@ function reset() {
   node.attr("opacity", 1);  // reset node opacity
   link.attr("opacity", 1).attr("stroke-width", 1);  // reset link opacity and stroke width
   clicked = null;
+  clickedNode.value = null;
 }
 
 // Event functions
@@ -141,39 +161,80 @@ function mouseout(event, d) {
 }
 
 function click(event, d) {
+  if (d.group === "Dataset" && d.connections < clickThreshold.state) return;  // do not allow clicking "bonus" nodes
   if (clicked && clicked.id === d.id) {  // if a node is clicked twice -> reset graph view
     reset();  
   } else {  // if no node is clicked -> highlight correct nodes
     clicked = d;  // assign clicked to deactivate mouseover/mouseout
+    clickedNode.value = d;
     highlight(d);
   }
 }
 
 // Display the graph
 display(svg.node())
+
+// Color legend
+const legendItemHeight = 32;
+const legendWidth = 160;
+
+const groups = [...new Set(nodes.map(n => n.group))].sort();
+
+const legend = svg.append("g")
+  .attr("transform", `translate(${width/2 - legendWidth - 20}, ${-height/2 + 20})`);
+
+groups.forEach((group, i) => {
+  const row = legend.append("g")
+    .attr("transform", `translate(0, ${i * legendItemHeight})`);
+  row.append("circle")
+    .attr("r", 10)
+    .attr("fill", color(group))
+    .attr("stroke", "currentColor")  // adjust circle outline color to background color
+    .attr("stroke-width", 1.5);
+  row.append("text")
+    .attr("x", 20)
+    .attr("y", 10)
+    .attr("font-size", 28)
+    .attr("fill", "currentColor")
+    .text(group);
+});
 ```
 
 <!-- Update Cell (avoid reloading the graph) -->
 
 ```js
+clickThreshold.state = minConnections;  // update "bonus" node clickThreshold value
 const visibleDatasets = new Set();
 const visibleNodes = new Set();
+const bonusNodes = new Set();
 
-// Keep dataset nodes with enough connections
+// Get dataset nodes with enough connections
 nodes.forEach(n => {
   if (n.group === "Dataset" && n.connections >= minConnections) {
     visibleDatasets.add(n.id);
   }
 });
 
-// Add applications directly connected to the dataset nodes
+// Add datasets and directly connected applications to visibleNodes
 visibleDatasets.forEach(id => {
   visibleNodes.add(id);
   adjacency.get(id)?.forEach(neighbourId => visibleNodes.add(neighbourId));
 });
 
+// Identify normally not visible (due to minConnections slider) "bonus" nodes if a neighbour is clicked
+if (clickedNode && clickedNode.group === "Application") {
+  adjacency.get(clickedNode.id)?.forEach(neighbourId => {
+    if (!visibleNodes.has(neighbourId)) {
+      bonusNodes.add(neighbourId);
+    }
+  });
+}
+
+// Add "bonus" nodes to the visibleNodes
+bonusNodes.forEach(id => visibleNodes.add(id));
+
 // Toggle node visibility
-node.style("display", n => visibleNodes.has(n.id) ? null : "none");
+node.style("display", n => visibleNodes.has(n.id) ? null : "none")
 
 // Toggle link visibility
 link.style("display", l => {
@@ -182,3 +243,72 @@ link.style("display", l => {
   return visibleNodes.has(source) && visibleNodes.has(target) ? null : "none";
 });
 ```
+
+<!-- Table Cells (Data/Slider/Display) -->
+
+```js
+// Top 20 datasets by connections (default)
+const topDatasets = nodes
+  .filter(n => n.group === "Dataset" && n.title != "Dataset: null")  // exclude "null" datasets (error in underlying data)
+  .sort((a, b) => b.connections - a.connections)
+  .slice(0, 20);
+
+// Most connected neighbours lookup helper
+function getNeighbourNodes(d) {
+  return [...(adjacency.get(d.id) || new Set())]
+    .map(id => nodeById.get(id))  // helper function from graph cell
+    .filter(n => n.title != "Dataset: null")  // exclude "null" datasets (error in underlying data)
+    .sort((a, b) => b.connections - a.connections);    
+}
+
+// Resolve what to show
+const tableData = clickedNode === null
+  ? topDatasets  // if no node is clicked -> show default table
+  : getNeighbourNodes(clickedNode);  // if a node is clicked -> show neighbouring nodes table
+```
+
+```js
+const tableEntries = view(Inputs.range([1, tableData.length], {value: 10, step: 1, label: "Number of Rows"}))
+```
+
+```js
+const tableDataSliced = tableData.slice(0, tableEntries);  // slice table data according to slider
+const stripTitlePrefix = title => title.replace(/^(Dataset|Application): /, "")  // strip title prefixes
+
+// Table title
+const tableTitle = clickedNode === null
+  ? `Top ${tableEntries} Datasets ranked by number of connected Applications`
+  : clickedNode.group === "Dataset"
+    ? `Top ${tableEntries} Applications connected to ${clickedNode.title}`
+    : `Top ${tableEntries} Datasets connected to ${clickedNode.title}`;
+
+// Build table HTML - header is in the html template, rows are injected via innerHTML
+// to avoid Observable wrapping map() results in fragments that break table structure
+const table = html`
+  <div style="overflow-x: auto; max-height: 460px; overflow-y: auto;">
+    <p><strong>${tableTitle}</strong></p>
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; min-width: 600px;">
+      <thead>
+        <tr style="border-bottom: 1px solid #ccc; text-align: left;">
+          <th style="padding: 6px 12px; width: 50%;">Name</th>
+          <th style="padding: 6px 12px; width: 20%;">Group</th>
+          <th style="padding: 6px 12px; width: 15%;">Connections</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+`;
+
+table.querySelector("tbody").innerHTML = tableDataSliced.map(d => `
+  <tr style="border-bottom: 0.5px solid #eee;">
+    <td style="padding:6px 12px;"><a href="https://www.data.gv.at/${d.group}s/${d.id}/" target="_blank">${stripTitlePrefix(d.title)}</a></td>
+    <td style="padding:6px 12px;">${d.group}</td>
+    <td style="padding:6px 12px;">${d.connections}</td>
+  </tr>
+`).join("");
+
+display(table);
+```
+
+
