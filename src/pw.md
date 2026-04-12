@@ -7,6 +7,8 @@ sql:
 
 <!-- Data Loading / Tables -->
 
+### Nodes
+
 ```sql id=Nodes display
 SELECT 
   id, 
@@ -15,6 +17,8 @@ SELECT
   connections
 FROM formattedNodes
 ```
+
+### Links
 
 ```sql id=Links display
 SELECT source, "target", value
