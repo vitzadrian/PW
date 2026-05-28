@@ -1,1 +1,6 @@
-/.observablehq/cache/
+node_modules
+dist
+# Ignore cache generally but keep committed data files
+src/.observablehq/cache/*
+!src/.observablehq/cache/data/
+!src/.observablehq/cache/data/**

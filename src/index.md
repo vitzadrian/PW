@@ -1,7 +1,7 @@
 ---
 sql:
-    formattedNodes: ./data/formattedNodes.csv
-    formattedLinks: ./data/formattedLinks.csv
+    formattedNodes: data/graph/formattedNodes.csv
+    formattedLinks: data/graph/formattedLinks.csv
 ---
 
 <div class="hero">
@@ -60,11 +60,7 @@ sql:
 ### Nodes
 
 ```sql id=Nodes display
-SELECT 
-  id, 
-  REPLACE(REPLACE(title, 'Datensatz: ', 'Dataset: '), 'Anwendung: ', 'Application: ') AS title, -- translate title prefixes
-  "group", 
-  connections
+SELECT id, title, "group", connections
 FROM formattedNodes
 ```
 
@@ -144,8 +140,8 @@ node.append("title").text(d => `${d.title}\nConnections: ${d.connections}`) // a
 const simulation = d3.forceSimulation(nodes)
   .force("link", d3.forceLink(links).id(d => d.id))
   .force("charge", d3.forceManyBody().strength(-50))
-  .force("x", d3.forceX().strength(0.1))
-  .force("y", d3.forceY().strength(0.15))
+  .force("x", d3.forceX().strength(0.115))
+  .force("y", d3.forceY().strength(0.18))
   .force("collide", d3.forceCollide(d => radiusScale(d.connections) + 1))
   .alphaDecay(0.03)  // stabilize the simulation quickly, but accurately
 
@@ -305,7 +301,7 @@ link.style("display", l => {
 ```js
 // Top 20 datasets by connections (default)
 const topDatasets = nodes
-  .filter(n => n.group === "Dataset" && n.title != "Dataset: null")  // exclude "null" datasets (error in underlying data)
+  .filter(n => n.group === "Dataset")
   .sort((a, b) => b.connections - a.connections)
   .slice(0, 20);
 
@@ -313,7 +309,6 @@ const topDatasets = nodes
 function getNeighbourNodes(d) {
   return [...(adjacency.get(d.id) || new Set())]
     .map(id => nodeById.get(id))  // helper function from graph cell
-    .filter(n => n.title != "Dataset: null")  // exclude "null" datasets (error in underlying data)
     .sort((a, b) => b.connections - a.connections);    
 }
 
@@ -324,7 +319,7 @@ const tableData = clickedNode === null
 ```
 
 ```js
-const tableEntries = view(Inputs.range([1, tableData.length], {value: 10, step: 1, label: "Number of Rows"}))
+const tableEntries = view(Inputs.range([1, tableData.length], {value: 5, step: 1, label: "Number of Rows"}))
 ```
 
 ```js
@@ -333,16 +328,19 @@ const stripTitlePrefix = title => title.replace(/^(Dataset|Application): /, "") 
 
 // Table title
 const tableTitle = clickedNode === null
-  ? `Top ${tableEntries} Datasets ranked by number of connected Applications`
+  ? `Top ${tableEntries} Datasets`
   : clickedNode.group === "Dataset"
-    ? `Top ${tableEntries} Applications connected to ${clickedNode.title}`
-    : `Top ${tableEntries} Datasets connected to ${clickedNode.title}`;
+    ? `Top ${tableEntries} Applications linked to ${clickedNode.title}`
+    : `Top ${tableEntries} Datasets linked to ${clickedNode.title}`;
+
+const connectedNodesGroup = clickedNode === null
+  ? "Application" : clickedNode.group
 
 // Build table HTML - header is in the html template, rows are injected via innerHTML
 // to avoid Observable wrapping map() results in fragments that break table structure
 const table = html`
   <div style="overflow-x: auto; max-height: 460px; overflow-y: auto;">
-    <p><strong>${tableTitle}</strong></p>
+    <p><strong>${tableTitle}</strong> ranked by number of connected ${connectedNodesGroup}s.</p>
     <table style="width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; min-width: 600px;">
       <thead>
         <tr style="border-bottom: 1px solid #ccc; text-align: left;">
@@ -365,4 +363,73 @@ table.querySelector("tbody").innerHTML = tableDataSliced.map(d => `
 `).join("");
 
 display(table);
+```
+
+```js
+// Similarity measure Slider
+const similarityMeasureInput = Inputs.radio(["Shared Connections", "Jaccard Similarity"], {value: "Shared Connections", label: "Similarity Measure"});
+const similarityMeasure = view(similarityMeasureInput);
+```
+
+```js
+similarityMeasureInput.style.display = clickedNode !== null ? null : "none";  // only show when a node is clicked
+```
+
+```js
+// Compute similarity table data when a node is clicked
+const similarityData = clickedNode === null ? [] : (() => {
+  const sourceNeighbours = adjacency.get(clickedNode.id) || new Set();
+  
+  return nodes
+    .filter(n => n.group === clickedNode.group && n.id !== clickedNode.id)
+    .map(n => {
+      const candidateNeighbours = adjacency.get(n.id) || new Set();
+      const shared = [...sourceNeighbours].filter(id => candidateNeighbours.has(id)).length;
+      const union = new Set([...sourceNeighbours, ...candidateNeighbours]).size;
+      const jaccard = union === 0 ? 0 : shared / union;
+      return { ...n, shared, jaccard };
+    })
+    .filter(n => n.shared > 0)
+    .sort((a, b) => similarityMeasure === "Jaccard Similarity"
+      ? b.jaccard - a.jaccard
+      : b.shared - a.shared
+    )
+    .slice(0, tableEntries);
+})();
+```
+
+```js
+// Similarity table
+const groupPath = { "Dataset": "datasets", "Application": "applications" };  // more robust links
+
+if (clickedNode !== null && similarityData.length > 0) {
+
+  const similarTable = html`
+    <p><strong>Top ${tableEntries} ${clickedNode.group}s</strong> most similar to <strong>${stripTitlePrefix(clickedNode.title)}</strong> ranked by ${similarityMeasure}.</p>
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+      <thead>
+        <tr style="border-bottom: 1px solid #ccc; text-align: left;">
+          <th style="padding: 6px 12px;">Name</th>
+          <th style="padding: 6px 12px;">Shared Connections</th>
+          <th style="padding: 6px 12px;">Jaccard Similarity</th>
+          <th style="padding: 6px 12px;">Total Connections</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  `;
+
+  similarTable.querySelector("tbody").innerHTML = similarityData.map(d => `
+    <tr style="border-bottom: 0.5px solid #eee;">
+      <td style="padding: 6px 12px;"><a href="https://www.data.gv.at/${groupPath[d.group]}/${d.id}/" target="_blank">${stripTitlePrefix(d.title)}</a></td>
+      <td style="padding: 6px 12px;">${d.shared}</td>
+      <td style="padding: 6px 12px;">${d.jaccard.toFixed(3)}</td>
+      <td style="padding: 6px 12px;">${d.connections}</td>
+    </tr>
+  `).join("");
+
+  display(similarTable);
+} else {
+  display(html`<span></span>`);
+}
 ```
