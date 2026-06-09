@@ -2,3 +2,18 @@
 /dist/
 node_modules/
 yarn-error.log
+
+# Ignore all Observable cache
+src/.observablehq/cache/**
+
+# Keep generated data files
+!src/.observablehq/cache/data/
+!src/.observablehq/cache/data/**
+
+# Explicitly ignore DuckDB extensions and databases
+src/.observablehq/cache/_duckdb/
+src/.observablehq/cache/**/*.duckdb
+src/.observablehq/cache/**/*.wal
+
+# Ignore temporary compressed files
+src/.observablehq/cache/**/*.zip
