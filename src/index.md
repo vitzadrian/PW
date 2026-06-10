@@ -319,55 +319,70 @@ const tableData = clickedNode === null
 ```
 
 ```js
-const tableEntries = view(Inputs.range([1, tableData.length], {value: 5, step: 1, label: "Number of Rows"}))
+// Table Entries Slider Cell
+const tableEntriesInput = Inputs.range([1, 20], {value: 5, step: 1, label: "Number of Rows"});
+const tableEntries = view(tableEntriesInput);
 ```
 
 ```js
-const tableDataSliced = tableData.slice(0, tableEntries);  // slice table data according to slider
-const stripTitlePrefix = title => title.replace(/^(Dataset|Application): /, "")  // strip title prefixes
+// Helper Cell (group path and table builder)
+const groupPath = { "Dataset": "datasets", "Application": "applications" };
+const stripTitlePrefix = title => title.replace(/^(Dataset|Application): /, "");
 
-// Table title
+function buildTable(titleHtml, columns, rows) {
+  const table = html`
+    <div style="overflow-x: auto; max-height: 400px; overflow-y: auto;">
+      <p style="display: block; min-width: 100%">${titleHtml}</p>
+      <table style="width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; min-width: 100%;">
+        <thead><tr style="border-bottom: 1px solid #ccc; text-align: left;"></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  `;
+  table.querySelector("thead tr").innerHTML = columns.map(c =>
+    `<th style="padding: 6px 12px; width: ${c.width};">${c.label}</th>`
+  ).join("");
+  table.querySelector("tbody").innerHTML = rows;
+  return table;
+}
+```
+
+```js
+// Connected Nodes Table
+const tableDataSliced = tableData.slice(0, Math.min(tableEntries, tableData.length));
+
+const displayedEntries = tableDataSliced.length;
+
 const tableTitle = clickedNode === null
-  ? `Top ${tableEntries} Datasets`
+  ? `Top ${displayedEntries} Datasets`
   : clickedNode.group === "Dataset"
-    ? `Top ${tableEntries} Applications linked to ${clickedNode.title}`
-    : `Top ${tableEntries} Datasets linked to ${clickedNode.title}`;
+    ? `Top ${displayedEntries} Applications linked to ${clickedNode.title}`
+    : `Top ${displayedEntries} Datasets linked to ${clickedNode.title}`;
 
 const connectedNodesGroup = clickedNode === null
-  ? "Application" : clickedNode.group
+  ? "Application" : clickedNode.group;
 
-// Build table HTML - header is in the html template, rows are injected via innerHTML
-// to avoid Observable wrapping map() results in fragments that break table structure
-const table = html`
-  <div style="overflow-x: auto; max-height: 460px; overflow-y: auto;">
-    <p><strong>${tableTitle}</strong> ranked by number of connected ${connectedNodesGroup}s.</p>
-    <table style="width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; min-width: 600px;">
-      <thead>
-        <tr style="border-bottom: 1px solid #ccc; text-align: left;">
-          <th style="padding: 6px 12px; width: 50%;">Name</th>
-          <th style="padding: 6px 12px; width: 20%;">Group</th>
-          <th style="padding: 6px 12px; width: 15%;">Connections</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
-`;
-
-table.querySelector("tbody").innerHTML = tableDataSliced.map(d => `
-  <tr style="border-bottom: 0.5px solid #eee;">
-    <td style="padding:6px 12px;"><a href="https://www.data.gv.at/${d.group}s/${d.id}/" target="_blank">${stripTitlePrefix(d.title)}</a></td>
-    <td style="padding:6px 12px;">${d.group}</td>
-    <td style="padding:6px 12px;">${d.connections}</td>
-  </tr>
-`).join("");
-
-display(table);
+display(buildTable(
+  html`<strong>${tableTitle}</strong> ranked by number of connected ${connectedNodesGroup}s.`,
+  [
+    { label: "Name", width: "80%" },
+    { label: "Group", width: "10%" },
+    { label: "Connections", width: "10%" }
+  ],
+  tableDataSliced.map(d => `
+    <tr style="border-bottom: 0.5px solid #eee;">
+      <td style="padding: 6px 12px; max-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+        <a href="https://www.data.gv.at/${groupPath[d.group]}/${d.id}/" target="_blank" title="${stripTitlePrefix(d.title)}">${stripTitlePrefix(d.title)}</a></td>
+      <td style="padding: 6px 12px;">${d.group}</td>
+      <td style="padding: 6px 12px;">${d.connections}</td>
+    </tr>
+  `).join("")
+));
 ```
 
 ```js
-// Similarity measure Slider
-const similarityMeasureInput = Inputs.radio(["Shared Connections", "Jaccard Similarity"], {value: "Shared Connections", label: "Similarity Measure"});
+// Similarity Measure Radio
+const similarityMeasureInput = Inputs.radio(["Jaccard Similarity", "Shared Connections"], {value: "Jaccard Similarity", label: "Similarity Measure"});
 const similarityMeasure = view(similarityMeasureInput);
 ```
 
@@ -399,36 +414,26 @@ const similarityData = clickedNode === null ? [] : (() => {
 ```
 
 ```js
-// Similarity table
-const groupPath = { "Dataset": "datasets", "Application": "applications" };  // more robust links
-
+// Similarity Table
 if (clickedNode !== null && similarityData.length > 0) {
-
-  const similarTable = html`
-    <p><strong>Top ${tableEntries} ${clickedNode.group}s</strong> most similar to <strong>${stripTitlePrefix(clickedNode.title)}</strong> ranked by ${similarityMeasure}.</p>
-    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
-      <thead>
-        <tr style="border-bottom: 1px solid #ccc; text-align: left;">
-          <th style="padding: 6px 12px;">Name</th>
-          <th style="padding: 6px 12px;">Shared Connections</th>
-          <th style="padding: 6px 12px;">Jaccard Similarity</th>
-          <th style="padding: 6px 12px;">Total Connections</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  `;
-
-  similarTable.querySelector("tbody").innerHTML = similarityData.map(d => `
-    <tr style="border-bottom: 0.5px solid #eee;">
-      <td style="padding: 6px 12px;"><a href="https://www.data.gv.at/${groupPath[d.group]}/${d.id}/" target="_blank">${stripTitlePrefix(d.title)}</a></td>
-      <td style="padding: 6px 12px;">${d.shared}</td>
-      <td style="padding: 6px 12px;">${d.jaccard.toFixed(3)}</td>
-      <td style="padding: 6px 12px;">${d.connections}</td>
-    </tr>
-  `).join("");
-
-  display(similarTable);
+  display(buildTable(
+    html`<strong>Top ${tableEntries} ${clickedNode.group}s</strong> most similar to <strong>${stripTitlePrefix(clickedNode.title)}</strong> ranked by ${similarityMeasure}.`,
+    [
+      { label: "Name", width: "70%" },
+      { label: "Jaccard", width: "10%" },
+      { label: "Shared", width: "10%" },
+      { label: "Total", width: "10%" }
+    ],
+    similarityData.map(d => `
+      <tr style="border-bottom: 0.5px solid #eee;">
+        <td style="padding: 6px 12px; max-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+          <a href="https://www.data.gv.at/${groupPath[d.group]}/${d.id}/" target="_blank" title="${stripTitlePrefix(d.title)}">${stripTitlePrefix(d.title)}</a></td>
+        <td style="padding: 6px 12px;">${d.jaccard.toFixed(3)}</td>
+        <td style="padding: 6px 12px;">${d.shared}</td>
+        <td style="padding: 6px 12px;">${d.connections}</td>
+      </tr>
+    `).join("")
+  ));
 } else {
   display(html`<span></span>`);
 }
