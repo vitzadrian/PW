@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 <div style="max-width: 640px; margin: 0 auto; text-align: center; padding: 3rem 0 2rem;">
   <h1 style="font-size: 48px; font-weight: 600; margin: 0 0 0.5rem;">
     Practical Work: Open Data &amp; Vis Landscape
@@ -13,6 +17,9 @@
   margin: 0 auto 2rem;
   line-height: 1.7;
   font-size: 16px;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .about-section h2 {
@@ -65,10 +72,10 @@ with size scaled to the number of connections. The layout naturally surfaces
 widely-used datasets as prominent, central nodes, while revealing thematic 
 clusters within the ecosystem. Interactivity includes:
 
-- Hover highlighting of direct neighbours
-- Click-based selection with connection tables
-- A minimum connections filter to focus on the most active part of the network
-- Similarity scoring via Jaccard similarity to surface structurally analogous entries
+- Hover highlighting of direct neighbours.
+- Click-based selection with connection tables.
+- A minimum connections filter to focus on the most active part of the network.
+- Similarity scoring via shared connections or Jaccard Similarity.
 
 The **[Zoomable Treemap](/treemap)** provides a hierarchical thematic overview of the catalog, 
 allowing users to navigate from broad topic areas down through subcategories to 
