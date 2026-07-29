@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "OGD",
+  title: "Open Data & Vis Landscape",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
@@ -10,8 +10,8 @@ export default {
      {
        name: "Pages",
        pages: [
-         {name: "Force-Graph Old", path: "/force-directed-graph"},
-         {name: "OGD Base Project", path: "/ogd-project"}
+         {name: "Force-Directed Graph", path: "/force-graph"},
+         {name: "Treemap", path: "/treemap"}
        ]
      }
    ],

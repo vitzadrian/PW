@@ -1,59 +1,42 @@
-# OGD
+# Austrian Open Government Data & Vis Landscape
 
-This is an [Observable Framework](https://observablehq.com/framework/) app. To install the required dependencies, run:
+An interactive web application visualizing the Austrian Open Government Data 
+(OGD) ecosystem. Explore the relationships between publicly available datasets 
+and the applications built upon them, hosted at 
+[vitzadrian.github.io/PW](https://vitzadrian.github.io/PW).
 
-```
-npm install
-```
+## What it does
 
-Then, to start the local preview server, run:
+Austria's [data.gv.at](https://www.data.gv.at) portal catalogs thousands of 
+datasets alongside several hundred applications. This project makes the 
+structure of that ecosystem visible through two interactive visualizations:
 
-```
-npm run dev
-```
+- **Force-Directed Graph** — A network of all applications and the datasets 
+  they are built upon. Node size reflects connection count. Click any node to 
+  inspect its direct connections and discover similar entries by Jaccard 
+  similarity. Filter by minimum connectivity to focus on the most widely used 
+  datasets.
+- **Zoomable Treemap** — A hierarchical thematic overview of the catalog, 
+  navigable by categories like topics, publishers, licenses, and more.
 
-Then visit <http://localhost:3000> to preview your app.
-
-For more, see <https://observablehq.com/framework/getting-started>.
+The data is fetched from the data.gv.at Piveau API and updated automatically every 
+day via a scheduled GitHub Actions workflow.
 
 ## Project structure
 
-A typical Framework project looks like this:
+src/
+index.md # main page with force-directed graph
+treemap.md # zoomable treemap page
+data/
+graph.zip.py # Python data loader (nodes + links CSVs)
+check_updates.py # daily change detection script
 
-```ini
-.
-├─ src
-│  ├─ components
-│  │  └─ timeline.js           # an importable module
-│  ├─ data
-│  │  ├─ launches.csv.js       # a data loader
-│  │  └─ events.json           # a static data file
-│  ├─ example-dashboard.md     # a page
-│  ├─ example-report.md        # another page
-│  └─ index.md                 # the home page
-├─ .gitignore
-├─ observablehq.config.js      # the app config file
-├─ package.json
-└─ README.md
-```
+## Tech stack
 
-**`src`** - This is the “source root” — where your source files live. Pages go here. Each page is a Markdown file. Observable Framework uses [file-based routing](https://observablehq.com/framework/project-structure#routing), which means that the name of the file controls where the page is served. You can create as many pages as you like. Use folders to organize your pages.
+- [Observable Framework](https://observablehq.com/framework/) — static site 
+  framework with reactive cells and SQL data queries
+- [D3.js](https://d3js.org/) — force simulation and treemap layout
+- Python — data loader fetching and assembling the API data
+- GitHub Actions — scheduled daily data updates and deployment to GitHub Pages
 
-**`src/index.md`** - This is the home page for your app. You can have as many additional pages as you’d like, but you should always have a home page, too.
 
-**`src/data`** - You can put [data loaders](https://observablehq.com/framework/data-loaders) or static data files anywhere in your source root, but we recommend putting them here.
-
-**`src/components`** - You can put shared [JavaScript modules](https://observablehq.com/framework/imports) anywhere in your source root, but we recommend putting them here. This helps you pull code out of Markdown files and into JavaScript modules, making it easier to reuse code across pages, write tests and run linters, and even share code with vanilla web applications.
-
-**`observablehq.config.js`** - This is the [app configuration](https://observablehq.com/framework/config) file, such as the pages and sections in the sidebar navigation, and the app’s title.
-
-## Command reference
-
-| Command           | Description                                              |
-| ----------------- | -------------------------------------------------------- |
-| `npm install`            | Install or reinstall dependencies                        |
-| `npm run dev`        | Start local preview server                               |
-| `npm run build`      | Build your static site, generating `./dist`              |
-| `npm run deploy`     | Deploy your app to Observable                            |
-| `npm run clean`      | Clear the local data loader cache                        |
-| `npm run observable` | Run commands like `observable help`                      |
